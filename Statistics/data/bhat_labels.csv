@@ -1,0 +1,1470 @@
+id,is-design,design-type
+SPARK-18862,True,Structural decision
+SPARK-11628,False,N/A
+SPARK-17351,True,Structural decision
+SPARK-16259,True,Non-existence - ban decision
+HADOOP-11333,False,N/A
+HADOOP-13382,True,Non-existence - ban decision
+SPARK-16675,True,Behavioral decision
+SPARK-16031,True,Behavioral decision
+HADOOP-6580,True,Behavioral decision
+HADOOP-11858,True,Structural decision
+HADOOP-13138,False,N/A
+SPARK-17013,False,N/A
+SPARK-15982,False,N/A
+HADOOP-12795,False,N/A
+SPARK-13921,True,Behavioral decision
+SPARK-11773,True,Behavioral decision
+SPARK-11926,True,Structural decision
+HADOOP-12446,True,Behavioral decision
+SPARK-16516,True,Behavioral decision
+HADOOP-12573,False,N/A
+SPARK-12337,True,Behavioral decision
+SPARK-16654,False,N/A
+HADOOP-12560,False,N/A
+HADOOP-4893,True,Behavioral decision
+SPARK-15171,True,Structural decision
+HADOOP-12655,False,N/A
+HADOOP-13738,True,Behavioral decision
+HADOOP-13184,False,N/A
+SPARK-17317,True,Structural decision
+SPARK-18124,True,Non-existence - ban decision
+SPARK-18857,False,N/A
+SPARK-15603,True,Structural decision
+HADOOP-11145,False,N/A
+HADOOP-13890,False,N/A
+SPARK-17750,False,N/A
+HADOOP-10918,False,N/A
+SPARK-12293,True,Behavioral decision
+HADOOP-11878,False,N/A
+SPARK-11766,True,Behavioral decision
+SPARK-18553,False,N/A
+SPARK-13322,True,Behavioral decision
+SPARK-12599,True,Non-existence - ban decision
+SPARK-12475,True,Structural decision
+HADOOP-6110,False,N/A
+SPARK-10076,True,Structural decision
+SPARK-14476,False,N/A
+SPARK-12287,True,Behavioral decision
+SPARK-18415,False,N/A
+HADOOP-7435,False,N/A
+HADOOP-12793,False,N/A
+SPARK-16934,True,Structural decision
+SPARK-5540,True,Non-existence - ban decision
+HADOOP-11552,True,Behavioral decision
+SPARK-17798,True,Non-existence - ban decision
+SPARK-19120,False,N/A
+HADOOP-13105,True,Behavioral decision
+SPARK-19223,False,N/A
+SPARK-10491,True,Structural decision
+HADOOP-10788,True,Structural decision
+HADOOP-12291,True,Behavioral decision
+SPARK-16461,True,Behavioral decision
+HADOOP-13024,False,N/A
+SPARK-15644,True,Structural decision
+SPARK-15091,False,N/A
+SPARK-18464,False,N/A
+SPARK-16477,False,N/A
+SPARK-13147,False,N/A
+SPARK-17439,False,N/A
+SPARK-19050,False,N/A
+SPARK-17511,False,N/A
+HADOOP-12756,True,Structural decision
+HADOOP-4901,True,Structural decision
+SPARK-16433,False,N/A
+SPARK-10371,True,Behavioral decision
+HADOOP-8619,True,Behavioral decision
+HADOOP-11356,True,Non-existence - ban decision
+SPARK-9922,True,Structural decision
+SPARK-15406,True,Structural decision
+SPARK-18338,False,N/A
+HADOOP-13675,False,N/A
+HADOOP-11316,False,N/A
+HADOOP-12706,False,N/A
+HADOOP-12535,False,N/A
+HADOOP-12350,False,N/A
+HADOOP-6721,False,N/A
+HADOOP-10766,False,N/A
+HADOOP-6596,True,Behavioral decision
+SPARK-11488,True,Non-existence - ban decision
+HADOOP-601,True,Structural decision
+SPARK-8879,True,Non-existence - ban decision
+SPARK-19338,False,N/A
+SPARK-17868,True,Non-existence - ban decision
+SPARK-18669,False,N/A
+HADOOP-10801,False,N/A
+HADOOP-11081,False,N/A
+SPARK-18009,False,N/A
+SPARK-10464,True,Structural decision
+HADOOP-13742,True,Behavioral decision
+SPARK-16344,False,N/A
+HADOOP-9136,True,Behavioral decision
+SPARK-16355,False,N/A
+SPARK-13830,False,N/A
+SPARK-17279,False,N/A
+SPARK-11536,True,Non-existence - ban decision
+SPARK-1057,True,Structural decision
+SPARK-17337,False,N/A
+HADOOP-12702,True,Behavioral decision
+SPARK-11358,True,Structural decision
+SPARK-18269,False,N/A
+SPARK-1110,True,Non-existence - ban decision
+SPARK-14733,True,Behavioral decision
+HADOOP-8101,True,Behavioral decision
+HADOOP-12958,False,N/A
+SPARK-18667,False,N/A
+SPARK-2397,True,Non-existence - ban decision
+HADOOP-12604,False,N/A
+SPARK-18827,False,N/A
+HADOOP-12064,True,Structural decision
+HADOOP-7003,False,N/A
+SPARK-9642,True,Behavioral decision
+HADOOP-13996,False,N/A
+SPARK-17261,False,N/A
+SPARK-13010,True,Behavioral decision
+SPARK-18908,False,N/A
+SPARK-10106,True,Behavioral decision
+SPARK-16153,False,N/A
+HADOOP-12239,False,N/A
+HADOOP-13685,False,N/A
+SPARK-18766,True,Behavioral decision
+HADOOP-2281,False,N/A
+HADOOP-10950,True,Structural decision
+SPARK-10447,True,Structural decision
+HADOOP-13145,True,Behavioral decision
+SPARK-6817,True,Behavioral decision
+SPARK-18814,False,N/A
+SPARK-9700,True,Structural decision
+HADOOP-10790,False,N/A
+HADOOP-11058,False,N/A
+SPARK-18717,False,N/A
+HADOOP-13558,False,N/A
+HADOOP-13885,True,Behavioral decision
+HADOOP-13473,False,N/A
+HADOOP-11685,False,N/A
+SPARK-18086,False,N/A
+HADOOP-12718,False,N/A
+HADOOP-10814,True,Structural decision
+HADOOP-7930,True,Behavioral decision
+SPARK-16998,False,N/A
+SPARK-16729,False,N/A
+SPARK-10178,False,N/A
+SPARK-13215,True,Non-existence - ban decision
+SPARK-18992,True,Structural decision
+SPARK-15625,True,Structural decision
+HADOOP-12087,False,N/A
+SPARK-19324,False,N/A
+HADOOP-12602,False,N/A
+SPARK-16967,True,Structural decision
+HADOOP-9675,False,N/A
+SPARK-11235,True,Behavioral decision
+HADOOP-13476,False,N/A
+SPARK-18991,True,Structural decision
+SPARK-17215,True,Non-existence - ban decision
+SPARK-14069,True,Behavioral decision
+HADOOP-11843,True,Behavioral decision
+SPARK-15623,True,Structural decision
+SPARK-16625,False,N/A
+SPARK-17404,False,N/A
+HADOOP-11320,False,N/A
+SPARK-14008,True,Non-existence - ban decision
+HADOOP-13797,True,Non-existence - ban decision
+HADOOP-6282,True,Behavioral decision
+SPARK-16071,False,N/A
+HADOOP-11901,False,N/A
+SPARK-16157,False,N/A
+SPARK-17251,False,N/A
+SPARK-18458,False,N/A
+HADOOP-11984,False,N/A
+SPARK-18504,False,N/A
+HADOOP-12417,False,N/A
+SPARK-18993,False,N/A
+SPARK-18951,True,Structural decision
+SPARK-18877,False,N/A
+SPARK-18172,False,N/A
+SPARK-16828,True,Non-existence - ban decision
+SPARK-9553,True,Non-existence - ban decision
+SPARK-13957,True,Behavioral decision
+HADOOP-12857,True,Structural decision
+HADOOP-12055,True,Behavioral decision
+HADOOP-11260,False,N/A
+SPARK-13797,True,Non-existence - ban decision
+HADOOP-10804,False,N/A
+SPARK-18645,False,N/A
+SPARK-13664,True,Structural decision
+SPARK-16159,True,Structural decision
+HADOOP-13396,True,Behavioral decision
+HADOOP-12600,True,Behavioral decision
+SPARK-16686,False,N/A
+SPARK-16229,False,N/A
+SPARK-17003,False,N/A
+HADOOP-3188,True,Structural decision
+HADOOP-12626,True,Structural decision
+SPARK-18677,False,N/A
+SPARK-18138,True,Structural decision
+HADOOP-5105,True,Behavioral decision
+SPARK-16118,False,N/A
+HADOOP-11927,False,N/A
+SPARK-17850,False,N/A
+HADOOP-12589,False,N/A
+HADOOP-9855,False,N/A
+HADOOP-12359,False,N/A
+SPARK-14251,False,N/A
+SPARK-18539,False,N/A
+SPARK-19403,False,N/A
+HADOOP-13466,True,Structural decision
+HADOOP-12903,False,N/A
+HADOOP-7947,True,Structural decision
+SPARK-19447,False,N/A
+HADOOP-11939,True,Behavioral decision
+SPARK-11743,True,Behavioral decision
+HADOOP-13861,False,N/A
+SPARK-17491,False,N/A
+HADOOP-13705,True,Non-existence - ban decision
+HADOOP-9347,False,N/A
+HADOOP-12520,True,Behavioral decision
+SPARK-11462,True,Behavioral decision
+SPARK-710,True,Non-existence - ban decision
+SPARK-18189,False,N/A
+SPARK-16216,False,N/A
+SPARK-16473,False,N/A
+SPARK-16012,True,Behavioral decision
+SPARK-18473,False,N/A
+SPARK-16584,True,Structural decision
+SPARK-13414,True,Behavioral decision
+SPARK-10028,True,Behavioral decision
+SPARK-18137,False,N/A
+SPARK-17819,False,N/A
+HADOOP-11025,True,Behavioral decision
+SPARK-10691,True,Behavioral decision
+SPARK-17817,False,N/A
+HADOOP-6423,True,Structural decision
+SPARK-12301,True,Non-existence - ban decision
+HADOOP-13119,False,N/A
+HADOOP-13661,True,Structural decision
+HADOOP-11885,False,N/A
+HADOOP-10699,False,N/A
+SPARK-14277,True,Behavioral decision
+SPARK-16964,True,Non-existence - ban decision
+HADOOP-6616,False,N/A
+HADOOP-13956,True,Behavioral decision
+SPARK-17124,False,N/A
+HADOOP-13037,True,Structural decision
+SPARK-16812,True,Behavioral decision
+HADOOP-12082,True,Behavioral decision
+SPARK-1996,True,Non-existence - ban decision
+SPARK-10446,True,Behavioral decision
+SPARK-17120,False,N/A
+HADOOP-13503,False,N/A
+SPARK-13763,True,Non-existence - ban decision
+HADOOP-13962,True,Structural decision
+SPARK-14324,True,Structural decision
+SPARK-16236,False,N/A
+SPARK-18467,True,Structural decision
+SPARK-12025,True,Structural decision
+SPARK-11324,True,Behavioral decision
+SPARK-13466,True,Non-existence - ban decision
+SPARK-18535,False,N/A
+HADOOP-12868,False,N/A
+SPARK-4632,True,Structural decision
+HADOOP-4522,True,Behavioral decision
+HADOOP-13512,False,N/A
+SPARK-12817,True,Non-existence - ban decision
+SPARK-14444,False,N/A
+SPARK-10331,False,N/A
+SPARK-13959,False,N/A
+HADOOP-12824,False,N/A
+SPARK-18387,False,N/A
+SPARK-13696,True,Non-existence - ban decision
+SPARK-11328,False,N/A
+SPARK-14275,True,Structural decision
+SPARK-12354,True,Non-existence - ban decision
+SPARK-13449,True,Structural decision
+SPARK-18300,False,N/A
+SPARK-16610,False,N/A
+HADOOP-13440,False,N/A
+HADOOP-12180,True,Structural decision
+SPARK-14601,False,N/A
+SPARK-19409,True,Structural decision
+SPARK-13904,True,Structural decision
+SPARK-18166,False,N/A
+HADOOP-11353,True,Behavioral decision
+HADOOP-6894,True,Structural decision
+HADOOP-13933,True,Behavioral decision
+SPARK-14594,True,Behavioral decision
+SPARK-12877,True,Structural decision
+HADOOP-1024,False,N/A
+HADOOP-12325,True,Behavioral decision
+SPARK-17845,True,Behavioral decision
+SPARK-16375,False,N/A
+SPARK-19059,False,N/A
+SPARK-17062,True,Structural decision
+SPARK-12700,True,Behavioral decision
+HADOOP-6581,True,Behavioral decision
+SPARK-13118,True,Structural decision
+SPARK-16311,False,N/A
+SPARK-17252,False,N/A
+HADOOP-12798,False,N/A
+HADOOP-13578,True,Structural decision
+SPARK-18729,True,Non-existence - ban decision
+SPARK-14972,True,Behavioral decision
+SPARK-9918,True,Non-existence - ban decision
+HADOOP-13863,True,Behavioral decision
+SPARK-8190,True,Non-existence - ban decision
+SPARK-17751,True,Non-existence - ban decision
+HADOOP-11394,False,N/A
+HADOOP-10474,True,Structural decision
+SPARK-16808,False,N/A
+SPARK-16304,False,N/A
+SPARK-18099,False,N/A
+HADOOP-12893,False,N/A
+SPARK-18604,False,N/A
+HADOOP-12504,True,Non-existence - ban decision
+SPARK-19133,False,N/A
+SPARK-14254,False,N/A
+HADOOP-13603,False,N/A
+HADOOP-13236,False,N/A
+SPARK-13739,True,Behavioral decision
+HADOOP-4334,True,Behavioral decision
+HADOOP-12441,False,N/A
+SPARK-18566,True,Non-existence - ban decision
+SPARK-5933,True,Structural decision
+HADOOP-10831,False,N/A
+SPARK-16515,False,N/A
+HADOOP-12288,False,N/A
+HADOOP-11208,False,N/A
+HADOOP-12955,False,N/A
+SPARK-17733,False,N/A
+SPARK-16715,False,N/A
+HADOOP-11713,True,Behavioral decision
+SPARK-11611,True,Behavioral decision
+SPARK-18760,False,N/A
+SPARK-16299,False,N/A
+HADOOP-2999,False,N/A
+SPARK-18853,False,N/A
+HADOOP-11393,False,N/A
+SPARK-19239,True,Behavioral decision
+HADOOP-12904,True,Structural decision
+SPARK-14963,True,Behavioral decision
+SPARK-19240,False,N/A
+HADOOP-13249,False,N/A
+HADOOP-3013,True,Behavioral decision
+SPARK-18816,False,N/A
+HADOOP-7328,True,Behavioral decision
+SPARK-16818,False,N/A
+SPARK-14049,True,Behavioral decision
+SPARK-12656,True,Structural decision
+SPARK-13094,False,N/A
+SPARK-18207,False,N/A
+HADOOP-12374,False,N/A
+SPARK-12288,True,Behavioral decision
+HADOOP-8652,False,N/A
+SPARK-17822,False,N/A
+HADOOP-12590,False,N/A
+HADOOP-11179,False,N/A
+SPARK-14669,False,N/A
+HADOOP-13537,True,Behavioral decision
+HADOOP-12911,True,Structural decision
+SPARK-18281,False,N/A
+HADOOP-11611,False,N/A
+HADOOP-12713,True,Behavioral decision
+SPARK-16062,False,N/A
+SPARK-16943,False,N/A
+HADOOP-12111,True,Structural decision
+SPARK-17693,False,N/A
+SPARK-11904,False,N/A
+HADOOP-13190,False,N/A
+SPARK-9562,True,Structural decision
+SPARK-19009,False,N/A
+SPARK-11644,True,Non-existence - ban decision
+HADOOP-11730,False,N/A
+SPARK-10676,False,N/A
+SPARK-13020,False,N/A
+HADOOP-6999,True,Behavioral decision
+SPARK-16748,False,N/A
+HADOOP-13833,False,N/A
+HADOOP-12553,False,N/A
+HADOOP-11958,False,N/A
+HADOOP-7352,True,Behavioral decision
+SPARK-19220,False,N/A
+HADOOP-4998,True,Behavioral decision
+HADOOP-6311,True,Structural decision
+SPARK-18750,False,N/A
+SPARK-14897,True,Structural decision
+SPARK-15626,True,Structural decision
+SPARK-16505,False,N/A
+SPARK-14500,True,Behavioral decision
+HADOOP-11948,True,Behavioral decision
+SPARK-14052,True,Behavioral decision
+HADOOP-11220,False,N/A
+SPARK-18702,True,Behavioral decision
+SPARK-17499,False,N/A
+HADOOP-11754,False,N/A
+HADOOP-8215,True,Behavioral decision
+SPARK-16648,False,N/A
+HADOOP-13065,True,Behavioral decision
+HADOOP-10941,False,N/A
+SPARK-4643,True,Non-existence - ban decision
+SPARK-16522,False,N/A
+HADOOP-12967,True,Non-existence - ban decision
+HADOOP-13663,False,N/A
+HADOOP-8078,True,Behavioral decision
+HADOOP-12611,False,N/A
+SPARK-16185,False,N/A
+HADOOP-12541,True,Behavioral decision
+HADOOP-10485,True,Non-existence - ban decision
+HADOOP-11627,True,Non-existence - ban decision
+SPARK-19110,False,N/A
+HADOOP-10866,False,N/A
+SPARK-16633,False,N/A
+SPARK-17545,False,N/A
+HADOOP-11720,False,N/A
+HADOOP-11012,False,N/A
+SPARK-16853,False,N/A
+HADOOP-11437,False,N/A
+SPARK-17216,False,N/A
+HADOOP-12849,False,N/A
+HADOOP-11247,False,N/A
+HADOOP-10033,False,N/A
+HADOOP-11449,False,N/A
+SPARK-10537,False,N/A
+HADOOP-10677,False,N/A
+SPARK-16482,False,N/A
+SPARK-15624,True,Structural decision
+SPARK-10047,True,Behavioral decision
+SPARK-10990,True,Behavioral decision
+SPARK-17721,False,N/A
+SPARK-17765,False,N/A
+SPARK-18111,False,N/A
+HADOOP-12622,False,N/A
+SPARK-17571,False,N/A
+SPARK-18034,True,Structural decision
+SPARK-19065,False,N/A
+SPARK-16750,False,N/A
+SPARK-12251,False,N/A
+HADOOP-2154,True,Behavioral decision
+SPARK-17093,False,N/A
+SPARK-17417,False,N/A
+SPARK-16935,True,Behavioral decision
+SPARK-15587,True,Behavioral decision
+SPARK-16731,True,Non-existence - ban decision
+SPARK-12065,True,Structural decision
+HADOOP-13348,True,Non-existence - ban decision
+SPARK-12912,False,N/A
+SPARK-18147,False,N/A
+SPARK-12235,True,Behavioral decision
+SPARK-17816,False,N/A
+HADOOP-9091,True,Behavioral decision
+HADOOP-3634,False,N/A
+SPARK-11914,True,Behavioral decision
+HADOOP-11040,False,N/A
+SPARK-16550,False,N/A
+SPARK-9934,True,Structural decision
+SPARK-14075,True,Structural decision
+SPARK-13131,False,N/A
+HADOOP-13083,False,N/A
+HADOOP-8125,True,Structural decision
+SPARK-16095,False,N/A
+SPARK-12913,True,Structural decision
+HADOOP-13425,True,Behavioral decision
+HADOOP-12916,True,Behavioral decision
+SPARK-17993,False,N/A
+SPARK-17855,False,N/A
+HADOOP-9837,True,Behavioral decision
+HADOOP-14004,True,Structural decision
+SPARK-14899,True,Non-existence - ban decision
+HADOOP-13375,False,N/A
+SPARK-17707,False,N/A
+SPARK-11754,True,Structural decision
+SPARK-18287,True,Structural decision
+SPARK-9095,True,Non-existence - ban decision
+HADOOP-11915,False,N/A
+SPARK-9876,True,Structural decision
+HADOOP-11318,False,N/A
+SPARK-17426,False,N/A
+HADOOP-11033,False,N/A
+SPARK-19437,False,N/A
+HADOOP-6786,True,Behavioral decision
+SPARK-12544,True,Behavioral decision
+HADOOP-1381,True,Behavioral decision
+HADOOP-10075,True,Structural decision
+HADOOP-8357,True,Behavioral decision
+HADOOP-10744,False,N/A
+SPARK-14060,True,Structural decision
+HADOOP-13209,True,Structural decision
+SPARK-17702,False,N/A
+SPARK-16372,False,N/A
+HADOOP-13579,False,N/A
+HADOOP-12758,True,Behavioral decision
+SPARK-11559,True,Behavioral decision
+SPARK-19441,True,Non-existence - ban decision
+SPARK-16829,False,N/A
+SPARK-17241,True,Behavioral decision
+SPARK-16528,False,N/A
+HADOOP-13522,True,Behavioral decision
+HADOOP-5029,True,Behavioral decision
+HADOOP-10780,False,N/A
+SPARK-16546,True,Behavioral decision
+SPARK-13271,False,N/A
+HADOOP-2864,True,Structural decision
+SPARK-18745,False,N/A
+HADOOP-5569,False,N/A
+HADOOP-12358,True,Behavioral decision
+SPARK-10605,True,Behavioral decision
+HADOOP-12470,False,N/A
+SPARK-12464,True,Non-existence - ban decision
+SPARK-17098,False,N/A
+SPARK-15030,True,Behavioral decision
+HADOOP-11926,False,N/A
+SPARK-12130,True,Structural decision
+HADOOP-11296,False,N/A
+SPARK-4861,True,Structural decision
+HADOOP-13338,False,N/A
+SPARK-11029,True,Behavioral decision
+SPARK-13601,True,Behavioral decision
+HADOOP-13427,True,Non-existence - ban decision
+SPARK-13361,False,N/A
+SPARK-14639,True,Behavioral decision
+SPARK-14722,True,Structural decision
+HADOOP-13353,False,N/A
+SPARK-16321,False,N/A
+SPARK-16813,True,Non-existence - ban decision
+SPARK-11423,True,Non-existence - ban decision
+HADOOP-12943,True,Behavioral decision
+SPARK-12242,True,Behavioral decision
+SPARK-15860,True,Behavioral decision
+HADOOP-10872,False,N/A
+SPARK-10810,True,Behavioral decision
+SPARK-17122,False,N/A
+SPARK-7855,True,Structural decision
+HADOOP-2608,False,N/A
+HADOOP-11565,True,Behavioral decision
+SPARK-13235,True,Non-existence - ban decision
+SPARK-17315,True,Structural decision
+HADOOP-11411,False,N/A
+SPARK-18622,False,N/A
+HADOOP-13141,False,N/A
+SPARK-14415,True,Behavioral decision
+SPARK-13833,True,Behavioral decision
+HADOOP-12909,True,Behavioral decision
+SPARK-16268,False,N/A
+HADOOP-12237,False,N/A
+SPARK-17932,False,N/A
+SPARK-18671,False,N/A
+HADOOP-11496,True,Behavioral decision
+SPARK-17912,True,Structural decision
+SPARK-18632,True,Behavioral decision
+SPARK-16751,True,Structural decision
+SPARK-17110,False,N/A
+SPARK-17509,True,Behavioral decision
+HADOOP-11937,False,N/A
+SPARK-16730,False,N/A
+SPARK-11290,True,Behavioral decision
+SPARK-16959,False,N/A
+SPARK-18711,False,N/A
+HADOOP-5726,True,Non-existence - ban decision
+SPARK-16110,False,N/A
+SPARK-4596,True,Structural decision
+SPARK-19139,True,Behavioral decision
+SPARK-9704,True,Behavioral decision
+HADOOP-13008,True,Behavioral decision
+SPARK-18687,False,N/A
+SPARK-14019,True,Non-existence - ban decision
+HADOOP-13168,True,Behavioral decision
+SPARK-16950,False,N/A
+SPARK-16155,True,Non-existence - ban decision
+SPARK-6122,True,Structural decision
+HADOOP-12759,True,Behavioral decision
+HADOOP-12951,False,N/A
+SPARK-15402,True,Behavioral decision
+SPARK-18220,False,N/A
+HADOOP-11960,True,Behavioral decision
+SPARK-17510,True,Behavioral decision
+HADOOP-12073,False,N/A
+SPARK-15989,False,N/A
+SPARK-17673,False,N/A
+SPARK-16058,False,N/A
+SPARK-18412,False,N/A
+HADOOP-12452,False,N/A
+SPARK-16192,True,Behavioral decision
+HADOOP-4839,True,Structural decision
+HADOOP-516,True,Structural decision
+SPARK-17211,False,N/A
+SPARK-4477,True,Non-existence - ban decision
+SPARK-16845,False,N/A
+SPARK-17936,False,N/A
+HADOOP-13688,True,Non-existence - ban decision
+SPARK-16008,False,N/A
+SPARK-18870,False,N/A
+HADOOP-11122,False,N/A
+HADOOP-13389,False,N/A
+SPARK-16388,False,N/A
+SPARK-16955,False,N/A
+SPARK-17949,True,Behavioral decision
+HADOOP-13602,False,N/A
+SPARK-14614,True,Behavioral decision
+SPARK-18905,False,N/A
+HADOOP-12859,True,Behavioral decision
+SPARK-13944,True,Structural decision
+HADOOP-12448,False,N/A
+SPARK-11663,True,Behavioral decision
+SPARK-18695,False,N/A
+HADOOP-6784,False,N/A
+SPARK-15932,False,N/A
+SPARK-15983,True,Non-existence - ban decision
+SPARK-932,True,Structural decision
+SPARK-11030,True,Structural decision
+HADOOP-8521,True,Behavioral decision
+SPARK-19307,False,N/A
+HADOOP-11687,True,Non-existence - ban decision
+SPARK-11389,True,Behavioral decision
+SPARK-11362,True,Behavioral decision
+HADOOP-11593,False,N/A
+HADOOP-13859,False,N/A
+SPARK-16991,False,N/A
+HADOOP-12717,False,N/A
+HADOOP-10910,False,N/A
+HADOOP-11485,True,Structural decision
+HADOOP-12681,False,N/A
+SPARK-18010,True,Non-existence - ban decision
+HADOOP-12076,False,N/A
+SPARK-11292,True,Behavioral decision
+SPARK-12286,True,Behavioral decision
+SPARK-10745,True,Structural decision
+SPARK-18555,False,N/A
+SPARK-17365,True,Non-existence - ban decision
+SPARK-11645,True,Non-existence - ban decision
+HADOOP-13337,True,Structural decision
+SPARK-14303,True,Structural decision
+SPARK-12309,True,Structural decision
+SPARK-16781,False,N/A
+SPARK-19411,True,Non-existence - ban decision
+SPARK-12164,False,N/A
+SPARK-17234,False,N/A
+HADOOP-10956,False,N/A
+SPARK-17806,False,N/A
+SPARK-17296,False,N/A
+HADOOP-12540,False,N/A
+SPARK-18113,False,N/A
+HADOOP-13900,True,Non-existence - ban decision
+SPARK-17503,False,N/A
+SPARK-17065,False,N/A
+SPARK-18237,False,N/A
+HADOOP-11001,False,N/A
+HADOOP-10890,False,N/A
+HADOOP-1899,True,Behavioral decision
+HADOOP-11864,False,N/A
+SPARK-17266,False,N/A
+SPARK-17808,False,N/A
+SPARK-18430,False,N/A
+SPARK-18589,False,N/A
+HADOOP-7570,True,Behavioral decision
+SPARK-16740,False,N/A
+SPARK-17368,False,N/A
+SPARK-14773,False,N/A
+SPARK-12636,True,Behavioral decision
+SPARK-13430,True,Behavioral decision
+SPARK-16958,True,Structural decision
+HADOOP-13978,False,N/A
+HADOOP-11596,True,Behavioral decision
+SPARK-16043,True,Structural decision
+HADOOP-4461,True,Structural decision
+SPARK-9733,False,N/A
+HADOOP-10925,False,N/A
+SPARK-18254,False,N/A
+HADOOP-13465,True,Behavioral decision
+HADOOP-5312,False,N/A
+SPARK-15363,False,N/A
+SPARK-16100,False,N/A
+HADOOP-13354,True,Structural decision
+SPARK-12492,False,N/A
+SPARK-12044,True,Behavioral decision
+SPARK-16975,False,N/A
+SPARK-17173,True,Structural decision
+SPARK-16925,False,N/A
+SPARK-10997,True,Structural decision
+SPARK-13928,True,Structural decision
+SPARK-12204,True,Behavioral decision
+SPARK-18854,False,N/A
+SPARK-9632,True,Behavioral decision
+SPARK-15021,False,N/A
+SPARK-9810,True,Non-existence - ban decision
+SPARK-3445,True,Non-existence - ban decision
+HADOOP-12495,False,N/A
+HADOOP-11661,True,Behavioral decision
+SPARK-16358,True,Non-existence - ban decision
+HADOOP-12768,False,N/A
+HADOOP-11969,False,N/A
+SPARK-7620,True,Non-existence - ban decision
+SPARK-16632,False,N/A
+HADOOP-6418,True,Behavioral decision
+SPARK-16385,False,N/A
+SPARK-16487,False,N/A
+SPARK-16642,False,N/A
+SPARK-12315,True,Behavioral decision
+HADOOP-5807,False,N/A
+HADOOP-12714,False,N/A
+SPARK-14269,True,Non-existence - ban decision
+SPARK-14077,True,Behavioral decision
+SPARK-10891,True,Behavioral decision
+HADOOP-12747,True,Behavioral decision
+HADOOP-10239,False,N/A
+SPARK-19334,False,N/A
+HADOOP-12542,False,N/A
+SPARK-18160,False,N/A
+SPARK-9759,True,Behavioral decision
+SPARK-14912,True,Behavioral decision
+SPARK-17849,False,N/A
+HADOOP-12211,False,N/A
+SPARK-17243,False,N/A
+HADOOP-3876,True,Behavioral decision
+HADOOP-6728,True,Behavioral decision
+HADOOP-10968,False,N/A
+SPARK-17142,False,N/A
+SPARK-17022,False,N/A
+SPARK-17891,False,N/A
+HADOOP-12950,True,Behavioral decision
+SPARK-16639,False,N/A
+SPARK-13922,False,N/A
+HADOOP-5271,True,Behavioral decision
+SPARK-14491,True,Structural decision
+SPARK-12438,True,Behavioral decision
+SPARK-12465,True,Non-existence - ban decision
+SPARK-9268,True,Non-existence - ban decision
+SPARK-17245,False,N/A
+SPARK-18954,False,N/A
+HADOOP-11546,False,N/A
+SPARK-16329,False,N/A
+SPARK-17863,False,N/A
+SPARK-16360,True,Non-existence - ban decision
+HADOOP-11226,True,Behavioral decision
+SPARK-16401,True,Non-existence - ban decision
+SPARK-10348,False,N/A
+HADOOP-13784,False,N/A
+SPARK-9773,True,Behavioral decision
+SPARK-17356,False,N/A
+SPARK-10657,True,Non-existence - ban decision
+SPARK-13980,True,Behavioral decision
+HADOOP-12304,False,N/A
+SPARK-10982,True,Structural decision
+SPARK-17841,False,N/A
+SPARK-11503,True,Behavioral decision
+SPARK-14426,True,Structural decision
+SPARK-9572,True,Behavioral decision
+SPARK-12374,True,Behavioral decision
+HADOOP-13457,True,Non-existence - ban decision
+SPARK-18592,True,Structural decision
+SPARK-10097,True,Behavioral decision
+SPARK-17848,True,Structural decision
+SPARK-16922,False,N/A
+SPARK-14581,True,Behavioral decision
+SPARK-6479,True,Behavioral decision
+HADOOP-11590,True,Non-existence - ban decision
+SPARK-18407,False,N/A
+SPARK-17599,False,N/A
+SPARK-898,True,Structural decision
+SPARK-15364,True,Behavioral decision
+HADOOP-13383,False,N/A
+SPARK-18280,False,N/A
+HADOOP-11334,False,N/A
+HADOOP-6918,True,Structural decision
+HADOOP-12656,False,N/A
+SPARK-13695,True,Behavioral decision
+SPARK-16422,False,N/A
+HADOOP-12672,True,Behavioral decision
+HADOOP-12817,True,Behavioral decision
+HADOOP-13942,False,N/A
+SPARK-9334,True,Non-existence - ban decision
+HADOOP-12811,True,Structural decision
+HADOOP-13812,True,Structural decision
+SPARK-16677,False,N/A
+SPARK-5440,True,Behavioral decision
+SPARK-17342,False,N/A
+SPARK-13130,False,N/A
+HADOOP-4462,True,Behavioral decision
+SPARK-16714,False,N/A
+SPARK-17811,False,N/A
+HADOOP-13697,False,N/A
+SPARK-11236,True,Structural decision
+SPARK-11493,True,Non-existence - ban decision
+SPARK-19066,False,N/A
+SPARK-9692,True,Non-existence - ban decision
+HADOOP-13341,True,Behavioral decision
+SPARK-12188,True,Behavioral decision
+SPARK-16837,False,N/A
+SPARK-18141,False,N/A
+SPARK-13742,True,Behavioral decision
+SPARK-17455,False,N/A
+HADOOP-13669,False,N/A
+HADOOP-11259,False,N/A
+HADOOP-12864,True,Non-existence - ban decision
+SPARK-18357,False,N/A
+HADOOP-14029,False,N/A
+HADOOP-6526,True,Behavioral decision
+SPARK-17260,True,Structural decision
+SPARK-16374,True,Non-existence - ban decision
+HADOOP-11870,False,N/A
+SPARK-10117,True,Behavioral decision
+SPARK-17463,False,N/A
+HADOOP-4460,True,Behavioral decision
+SPARK-19406,False,N/A
+HADOOP-8847,True,Behavioral decision
+SPARK-19472,False,N/A
+HADOOP-5962,True,Structural decision
+HADOOP-11827,True,Behavioral decision
+HADOOP-13227,True,Structural decision
+HADOOP-3315,True,Behavioral decision
+HADOOP-6992,False,N/A
+HADOOP-13670,False,N/A
+HADOOP-5190,False,N/A
+SPARK-14267,True,Behavioral decision
+HADOOP-12313,False,N/A
+HADOOP-12050,True,Behavioral decision
+SPARK-13465,True,Structural decision
+HADOOP-11428,False,N/A
+HADOOP-1849,True,Behavioral decision
+SPARK-17190,True,Non-existence - ban decision
+SPARK-15171,True,Behavioral decision
+SPARK-16248,True,Non-existence - ban decision
+SPARK-10592,True,Structural decision
+SPARK-17650,False,N/A
+SPARK-19452,False,N/A
+HADOOP-8124,True,Non-existence - ban decision
+SPARK-17514,False,N/A
+HADOOP-13687,True,Structural decision
+SPARK-15498,False,N/A
+HADOOP-10739,False,N/A
+HADOOP-7710,True,Structural decision
+SPARK-18674,False,N/A
+SPARK-18973,True,Non-existence - ban decision
+SPARK-11495,False,N/A
+HADOOP-12850,True,Structural decision
+SPARK-9144,True,Non-existence - ban decision
+SPARK-19386,False,N/A
+SPARK-12882,False,N/A
+SPARK-3524,True,Non-existence - ban decision
+HADOOP-13927,False,N/A
+HADOOP-13263,True,Behavioral decision
+SPARK-12420,True,Behavioral decision
+SPARK-10045,True,Behavioral decision
+SPARK-15472,True,Behavioral decision
+HADOOP-12321,True,Structural decision
+SPARK-17502,False,N/A
+SPARK-4128,False,N/A
+SPARK-17494,False,N/A
+SPARK-11835,False,N/A
+HADOOP-11470,True,Non-existence - ban decision
+HADOOP-6775,False,N/A
+SPARK-9285,True,Non-existence - ban decision
+HADOOP-13702,True,Behavioral decision
+HADOOP-13193,True,Structural decision
+SPARK-16556,False,N/A
+SPARK-18557,False,N/A
+SPARK-16691,True,Structural decision
+SPARK-13505,True,Behavioral decision
+SPARK-16561,False,N/A
+HADOOP-10957,False,N/A
+HADOOP-12070,False,N/A
+HADOOP-13858,False,N/A
+SPARK-4056,True,Structural decision
+SPARK-13926,True,Behavioral decision
+SPARK-18501,False,N/A
+SPARK-16349,False,N/A
+HADOOP-7775,True,Behavioral decision
+HADOOP-12743,False,N/A
+SPARK-10738,True,Structural decision
+SPARK-15178,True,Non-existence - ban decision
+SPARK-13893,True,Non-existence - ban decision
+HADOOP-12618,False,N/A
+SPARK-14353,True,Behavioral decision
+SPARK-12397,False,N/A
+SPARK-9815,True,Structural decision
+HADOOP-5988,True,Behavioral decision
+HADOOP-11350,False,N/A
+SPARK-17442,False,N/A
+SPARK-17486,True,Non-existence - ban decision
+HADOOP-10035,True,Behavioral decision
+HADOOP-11170,False,N/A
+HADOOP-13827,True,Behavioral decision
+HADOOP-13953,True,Behavioral decision
+SPARK-15819,True,Behavioral decision
+SPARK-16826,False,N/A
+SPARK-16135,True,Non-existence - ban decision
+SPARK-18125,False,N/A
+SPARK-13098,True,Non-existence - ban decision
+SPARK-11127,True,Structural decision
+SPARK-10378,True,Non-existence - ban decision
+SPARK-18050,False,N/A
+HADOOP-12563,True,Behavioral decision
+HADOOP-11109,False,N/A
+SPARK-15962,True,Behavioral decision
+HADOOP-13175,True,Non-existence - ban decision
+SPARK-18200,False,N/A
+SPARK-10343,True,Behavioral decision
+HADOOP-7571,True,Behavioral decision
+HADOOP-12682,False,N/A
+HADOOP-14003,True,Behavioral decision
+SPARK-18058,False,N/A
+SPARK-16538,False,N/A
+SPARK-17761,True,Structural decision
+SPARK-19082,False,N/A
+SPARK-16787,False,N/A
+SPARK-8949,True,Non-existence - ban decision
+HADOOP-12149,False,N/A
+SPARK-13527,True,Non-existence - ban decision
+HADOOP-12567,False,N/A
+HADOOP-11553,False,N/A
+SPARK-13427,True,Behavioral decision
+HADOOP-12078,False,N/A
+HADOOP-12384,True,Behavioral decision
+SPARK-18634,False,N/A
+HADOOP-10966,False,N/A
+HADOOP-11962,False,N/A
+SPARK-18296,True,Structural decision
+HADOOP-2786,True,Structural decision
+SPARK-16182,False,N/A
+HADOOP-13922,False,N/A
+HADOOP-12210,False,N/A
+HADOOP-11460,True,Behavioral decision
+SPARK-13992,True,Behavioral decision
+HADOOP-12902,False,N/A
+SPARK-14175,True,Non-existence - ban decision
+SPARK-15414,True,Behavioral decision
+SPARK-11114,True,Behavioral decision
+SPARK-18274,False,N/A
+HADOOP-11791,False,N/A
+SPARK-19183,True,Behavioral decision
+HADOOP-11800,False,N/A
+HADOOP-11554,True,Behavioral decision
+HADOOP-9018,True,Behavioral decision
+SPARK-17016,False,N/A
+SPARK-15586,True,Behavioral decision
+SPARK-11646,True,Behavioral decision
+SPARK-16966,False,N/A
+SPARK-17460,False,N/A
+SPARK-17752,False,N/A
+SPARK-5604,True,Non-existence - ban decision
+SPARK-14951,True,Behavioral decision
+SPARK-18751,False,N/A
+HADOOP-7347,True,Behavioral decision
+HADOOP-11169,False,N/A
+HADOOP-13994,True,Structural decision
+SPARK-18362,True,Structural decision
+HADOOP-10048,True,Behavioral decision
+SPARK-17391,False,N/A
+SPARK-18821,True,Structural decision
+SPARK-16602,False,N/A
+SPARK-18701,False,N/A
+SPARK-18949,True,Behavioral decision
+SPARK-15438,False,N/A
+SPARK-17678,False,N/A
+SPARK-16343,True,Behavioral decision
+SPARK-12011,True,Behavioral decision
+SPARK-17809,False,N/A
+HADOOP-11418,False,N/A
+SPARK-7131,True,Structural decision
+SPARK-14850,True,Behavioral decision
+SPARK-17972,False,N/A
+SPARK-15871,True,Behavioral decision
+SPARK-9336,True,Non-existence - ban decision
+HADOOP-11000,False,N/A
+SPARK-18493,True,Behavioral decision
+SPARK-18797,True,Structural decision
+SPARK-14655,True,Behavioral decision
+SPARK-19017,False,N/A
+HADOOP-11548,False,N/A
+HADOOP-11779,False,N/A
+SPARK-17438,False,N/A
+HADOOP-12296,False,N/A
+SPARK-10938,True,Non-existence - ban decision
+SPARK-16605,False,N/A
+HADOOP-13017,False,N/A
+HADOOP-7346,True,Behavioral decision
+SPARK-13873,True,Behavioral decision
+SPARK-18753,False,N/A
+HADOOP-12056,False,N/A
+SPARK-11591,False,N/A
+HADOOP-7323,True,Behavioral decision
+HADOOP-13043,False,N/A
+SPARK-18497,False,N/A
+HADOOP-13792,False,N/A
+HADOOP-13297,False,N/A
+SPARK-17931,True,Structural decision
+SPARK-18715,False,N/A
+SPARK-18003,False,N/A
+SPARK-18810,False,N/A
+HADOOP-1786,False,N/A
+SPARK-12811,True,Behavioral decision
+SPARK-9085,True,Non-existence - ban decision
+SPARK-14626,True,Behavioral decision
+HADOOP-12334,True,Behavioral decision
+SPARK-16354,False,N/A
+HADOOP-2921,True,Behavioral decision
+SPARK-13234,True,Non-existence - ban decision
+SPARK-13571,True,Structural decision
+HADOOP-12089,False,N/A
+SPARK-17167,False,N/A
+SPARK-19074,False,N/A
+HADOOP-13961,False,N/A
+HADOOP-6134,False,N/A
+SPARK-11305,False,N/A
+SPARK-9142,True,Non-existence - ban decision
+SPARK-15753,True,Structural decision
+HADOOP-12294,False,N/A
+HADOOP-11970,True,Behavioral decision
+SPARK-19060,True,Non-existence - ban decision
+HADOOP-12415,False,N/A
+SPARK-17207,False,N/A
+SPARK-17913,False,N/A
+HADOOP-12249,True,Behavioral decision
+SPARK-18523,False,N/A
+HADOOP-12773,False,N/A
+HADOOP-13142,True,Structural decision
+HADOOP-12418,False,N/A
+SPARK-16498,True,Structural decision
+SPARK-9644,True,Behavioral decision
+SPARK-18897,False,N/A
+SPARK-13659,True,Non-existence - ban decision
+SPARK-16003,False,N/A
+SPARK-14410,True,Behavioral decision
+SPARK-18436,False,N/A
+SPARK-17061,False,N/A
+HADOOP-8212,True,Behavioral decision
+SPARK-18703,False,N/A
+SPARK-10688,True,Behavioral decision
+SPARK-17458,False,N/A
+HADOOP-2798,False,N/A
+SPARK-11468,True,Behavioral decision
+SPARK-17099,False,N/A
+HADOOP-12548,True,Behavioral decision
+HADOOP-11731,True,Structural decision
+SPARK-18208,False,N/A
+HADOOP-12194,True,Behavioral decision
+SPARK-10599,True,Behavioral decision
+SPARK-17465,False,N/A
+SPARK-15214,True,Structural decision
+SPARK-7279,True,Non-existence - ban decision
+HADOOP-13350,False,N/A
+SPARK-13925,True,Behavioral decision
+SPARK-17100,False,N/A
+HADOOP-10945,False,N/A
+HADOOP-13716,True,Structural decision
+SPARK-19012,False,N/A
+SPARK-15629,True,Structural decision
+SPARK-18714,True,Behavioral decision
+SPARK-17144,True,Non-existence - ban decision
+SPARK-17324,True,Non-existence - ban decision
+SPARK-17653,True,Non-existence - ban decision
+HADOOP-11792,True,Non-existence - ban decision
+SPARK-14562,True,Structural decision
+SPARK-19231,False,N/A
+SPARK-12608,True,Non-existence - ban decision
+HADOOP-2868,False,N/A
+SPARK-17237,False,N/A
+HADOOP-11966,False,N/A
+HADOOP-13161,True,Non-existence - ban decision
+HADOOP-5158,True,Structural decision
+SPARK-10714,True,Structural decision
+HADOOP-13640,False,N/A
+SPARK-8948,True,Non-existence - ban decision
+HADOOP-7923,False,N/A
+SPARK-18361,True,Behavioral decision
+SPARK-9693,True,Behavioral decision
+HADOOP-11246,True,Structural decision
+SPARK-10359,False,N/A
+HADOOP-13583,True,Structural decision
+SPARK-17541,False,N/A
+SPARK-7693,True,Non-existence - ban decision
+SPARK-17086,False,N/A
+SPARK-11015,True,Behavioral decision
+HADOOP-12776,True,Non-existence - ban decision
+SPARK-6956,True,Behavioral decision
+SPARK-9754,True,Non-existence - ban decision
+HADOOP-4581,True,Structural decision
+HADOOP-13552,False,N/A
+SPARK-18114,False,N/A
+HADOOP-11934,False,N/A
+SPARK-12364,False,N/A
+HADOOP-11063,False,N/A
+HADOOP-12608,False,N/A
+SPARK-18643,False,N/A
+SPARK-18537,True,Behavioral decision
+SPARK-9564,False,N/A
+HADOOP-8279,True,Behavioral decision
+HADOOP-11035,False,N/A
+SPARK-16732,True,Non-existence - ban decision
+HADOOP-14044,False,N/A
+SPARK-18508,False,N/A
+HADOOP-12971,False,N/A
+HADOOP-13671,False,N/A
+SPARK-15413,True,Behavioral decision
+SPARK-18826,True,Behavioral decision
+HADOOP-466,False,N/A
+HADOOP-7378,True,Behavioral decision
+SPARK-17104,False,N/A
+SPARK-13884,True,Non-existence - ban decision
+SPARK-17844,True,Behavioral decision
+HADOOP-1823,True,Behavioral decision
+HADOOP-13084,False,N/A
+SPARK-13882,True,Non-existence - ban decision
+SPARK-14541,True,Behavioral decision
+SPARK-15457,True,Structural decision
+SPARK-18528,False,N/A
+HADOOP-5754,False,N/A
+SPARK-14205,True,Non-existence - ban decision
+SPARK-18148,False,N/A
+HADOOP-11064,False,N/A
+HADOOP-12873,True,Non-existence - ban decision
+HADOOP-11717,True,Behavioral decision
+HADOOP-11932,False,N/A
+HADOOP-13606,True,Structural decision
+HADOOP-10469,False,N/A
+SPARK-13139,True,Behavioral decision
+HADOOP-5118,True,Behavioral decision
+SPARK-17710,False,N/A
+SPARK-9489,True,Non-existence - ban decision
+HADOOP-5409,False,N/A
+SPARK-18107,False,N/A
+HADOOP-12588,False,N/A
+SPARK-12115,True,Structural decision
+HADOOP-13067,False,N/A
+SPARK-19268,False,N/A
+SPARK-14825,True,Structural decision
+SPARK-15908,True,Behavioral decision
+SPARK-9703,True,Behavioral decision
+HADOOP-13770,False,N/A
+SPARK-4447,True,Non-existence - ban decision
+SPARK-10373,True,Structural decision
+HADOOP-11821,False,N/A
+HADOOP-13428,False,N/A
+SPARK-13732,True,Non-existence - ban decision
+HADOOP-6312,True,Behavioral decision
+HADOOP-13964,True,Non-existence - ban decision
+HADOOP-12825,False,N/A
+SPARK-16792,False,N/A
+HADOOP-12899,False,N/A
+HADOOP-13137,False,N/A
+SPARK-17420,True,Structural decision
+HADOOP-11013,True,Behavioral decision
+SPARK-16121,False,N/A
+SPARK-15827,True,Structural decision
+SPARK-18529,False,N/A
+HADOOP-12635,True,Behavioral decision
+HADOOP-12688,False,N/A
+SPARK-18251,False,N/A
+HADOOP-12666,True,Structural decision
+SPARK-17117,False,N/A
+SPARK-10104,True,Structural decision
+SPARK-16644,False,N/A
+SPARK-15447,False,N/A
+HADOOP-13508,False,N/A
+SPARK-16404,False,N/A
+HADOOP-12668,True,Behavioral decision
+HADOOP-7937,True,Behavioral decision
+SPARK-18834,True,Behavioral decision
+HADOOP-12691,True,Behavioral decision
+SPARK-17870,False,N/A
+SPARK-14435,True,Structural decision
+HADOOP-12989,False,N/A
+SPARK-17755,False,N/A
+SPARK-11774,True,Behavioral decision
+SPARK-15181,True,Behavioral decision
+SPARK-12463,True,Non-existence - ban decision
+HADOOP-12453,True,Behavioral decision
+SPARK-13597,True,Behavioral decision
+SPARK-16371,False,N/A
+SPARK-17186,True,Non-existence - ban decision
+HADOOP-12699,False,N/A
+HADOOP-13590,True,Behavioral decision
+SPARK-14039,True,Structural decision
+HADOOP-4463,True,Structural decision
+SPARK-12476,True,Non-existence - ban decision
+SPARK-19093,False,N/A
+SPARK-18257,False,N/A
+HADOOP-12957,True,Behavioral decision
+SPARK-16051,True,Behavioral decision
+HADOOP-12095,False,N/A
+SPARK-13890,True,Non-existence - ban decision
+HADOOP-13707,False,N/A
+SPARK-13694,True,Behavioral decision
+SPARK-18894,False,N/A
+SPARK-13168,True,Behavioral decision
+SPARK-14939,True,Structural decision
+SPARK-11113,True,Non-existence - ban decision
+SPARK-16270,True,Behavioral decision
+SPARK-18076,False,N/A
+HADOOP-2987,True,Behavioral decision
+HADOOP-11203,True,Behavioral decision
+SPARK-16622,False,N/A
+HADOOP-1881,False,N/A
+SPARK-11042,True,Non-existence - ban decision
+HADOOP-7295,True,Structural decision
+SPARK-8596,True,Structural decision
+HADOOP-12493,False,N/A
+SPARK-4444,True,Non-existence - ban decision
+SPARK-16088,False,N/A
+HADOOP-12613,False,N/A
+SPARK-17210,False,N/A
+SPARK-12902,False,N/A
+HADOOP-13667,False,N/A
+HADOOP-13935,False,N/A
+HADOOP-11836,False,N/A
+SPARK-12908,False,N/A
+HADOOP-12786,False,N/A
+HADOOP-11090,True,Structural decision
+HADOOP-12603,False,N/A
+SPARK-15416,True,Non-existence - ban decision
+SPARK-17474,False,N/A
+SPARK-8154,True,Non-existence - ban decision
+HADOOP-13673,True,Behavioral decision
+HADOOP-11328,False,N/A
+HADOOP-11515,True,Structural decision
+SPARK-17339,False,N/A
+SPARK-15721,True,Behavioral decision
+HADOOP-12378,False,N/A
+SPARK-19019,False,N/A
+HADOOP-10962,False,N/A
+HADOOP-12625,True,Behavioral decision
+SPARK-18559,False,N/A
+SPARK-11513,True,Non-existence - ban decision
+HADOOP-11346,True,Structural decision
+SPARK-18462,False,N/A
+SPARK-14157,True,Behavioral decision
+HADOOP-11776,False,N/A
+SPARK-12645,True,Behavioral decision
+SPARK-19117,False,N/A
+HADOOP-13272,True,Behavioral decision
+SPARK-9613,True,Non-existence - ban decision
+SPARK-16415,False,N/A
+SPARK-12585,True,Structural decision
+SPARK-8876,True,Non-existence - ban decision
+SPARK-17150,True,Behavioral decision
+SPARK-12169,False,N/A
+SPARK-19129,False,N/A
+SPARK-16802,False,N/A
+HADOOP-7166,True,Structural decision
+SPARK-19396,False,N/A
+SPARK-9903,True,Behavioral decision
+SPARK-16009,False,N/A
+HADOOP-13042,False,N/A
+HADOOP-6080,True,Behavioral decision
+HADOOP-12481,False,N/A
+HADOOP-12081,False,N/A
+HADOOP-11692,False,N/A
+SPARK-10652,False,N/A
+HADOOP-13224,False,N/A
+SPARK-18216,True,Structural decision
+HADOOP-953,False,N/A
+SPARK-9706,False,N/A
+HADOOP-12185,True,Behavioral decision
+SPARK-18590,True,Structural decision
+SPARK-19336,True,Behavioral decision
+SPARK-10674,False,N/A
+HADOOP-11691,False,N/A
+SPARK-7887,True,Non-existence - ban decision
+HADOOP-12930,True,Behavioral decision
+HADOOP-7266,True,Behavioral decision
+HADOOP-13660,True,Structural decision
+SPARK-13348,True,Behavioral decision
+SPARK-16368,False,N/A
+SPARK-13526,True,Structural decision
+SPARK-12873,False,N/A
+HADOOP-5102,True,Structural decision
+SPARK-18709,False,N/A
+SPARK-8745,True,Non-existence - ban decision
+HADOOP-11240,False,N/A
+SPARK-17490,True,Behavioral decision
+SPARK-18132,False,N/A
+SPARK-9736,True,Behavioral decision
+HADOOP-12436,False,N/A
+SPARK-12735,True,Structural decision
+SPARK-17853,False,N/A
+SPARK-12542,True,Behavioral decision
+SPARK-18403,False,N/A
+SPARK-19158,False,N/A
+HADOOP-13709,True,Behavioral decision
+SPARK-15426,True,Behavioral decision
+HADOOP-13220,True,Structural decision
+SPARK-16440,False,N/A
+SPARK-16771,False,N/A
+SPARK-12757,True,Behavioral decision
+SPARK-1707,True,Non-existence - ban decision
+HADOOP-8885,True,Behavioral decision
+HADOOP-13226,True,Behavioral decision
+SPARK-10459,True,Non-existence - ban decision
+SPARK-17897,False,N/A
+HADOOP-11846,False,N/A
+HADOOP-10717,False,N/A
+SPARK-19319,False,N/A
+HADOOP-13928,False,N/A
+SPARK-19290,True,Behavioral decision
+HADOOP-14045,False,N/A
+HADOOP-6700,False,N/A
+HADOOP-7624,True,Structural decision
+HADOOP-11312,False,N/A
+SPARK-13011,True,Behavioral decision
+SPARK-14577,True,Behavioral decision
+SPARK-11194,True,Structural decision
+SPARK-16457,False,N/A
+SPARK-14978,True,Behavioral decision
+HADOOP-11694,False,N/A
+HADOOP-12302,False,N/A
+HADOOP-7224,True,Structural decision
+HADOOP-6629,True,Structural decision
+HADOOP-6964,True,Structural decision
+SPARK-16405,True,Behavioral decision
+HADOOP-12866,True,Behavioral decision
+HADOOP-10949,True,Structural decision
+HADOOP-13737,True,Non-existence - ban decision
+SPARK-17113,False,N/A
+HADOOP-12088,False,N/A
+HADOOP-10787,True,Non-existence - ban decision
+SPARK-12333,True,Behavioral decision
+SPARK-9667,True,Non-existence - ban decision
+SPARK-12537,True,Behavioral decision
+HADOOP-1713,True,Behavioral decision
+SPARK-11256,True,Structural decision
+SPARK-16700,False,N/A
+HADOOP-13782,True,Behavioral decision
+SPARK-16074,True,Behavioral decision
+HADOOP-10776,True,Behavioral decision
+SPARK-9769,True,Behavioral decision
+HADOOP-8147,True,Behavioral decision
+HADOOP-12767,True,Structural decision
+HADOOP-12689,False,N/A
+HADOOP-12366,True,Behavioral decision
+SPARK-9766,False,N/A
+SPARK-16831,False,N/A
+SPARK-12992,True,Behavioral decision
+SPARK-19072,False,N/A
+SPARK-17441,False,N/A
+HADOOP-12545,False,N/A
+HADOOP-7209,True,Behavioral decision
+SPARK-9767,True,Non-existence - ban decision
+HADOOP-11925,False,N/A
+HADOOP-13681,True,Structural decision
+SPARK-19029,True,Non-existence - ban decision
+SPARK-13972,False,N/A
+HADOOP-12059,True,Behavioral decision
+SPARK-15362,True,Behavioral decision
+HADOOP-12562,True,Behavioral decision
+SPARK-18578,False,N/A
+SPARK-17364,False,N/A
+SPARK-13598,True,Non-existence - ban decision
+SPARK-17429,False,N/A
+SPARK-11410,True,Behavioral decision
+SPARK-18655,False,N/A
+SPARK-16533,False,N/A
+SPARK-16858,True,Non-existence - ban decision
+SPARK-18051,False,N/A
+HADOOP-12348,False,N/A
+SPARK-17428,True,Structural decision
+HADOOP-6470,True,Behavioral decision
+SPARK-16228,False,N/A
+SPARK-17957,False,N/A
+SPARK-9674,True,Non-existence - ban decision
+SPARK-18121,False,N/A
+SPARK-14334,True,Behavioral decision
+SPARK-17666,False,N/A
+SPARK-16805,False,N/A
+SPARK-13930,True,Behavioral decision
+SPARK-14709,True,Behavioral decision
+SPARK-13485,True,Behavioral decision
+HADOOP-12962,False,N/A
+SPARK-13027,True,Behavioral decision
+SPARK-15110,True,Behavioral decision
+SPARK-16850,False,N/A
+HADOOP-13605,False,N/A
+HADOOP-13689,False,N/A
+HADOOP-12782,True,Behavioral decision
+SPARK-13329,True,Behavioral decision
+SPARK-16995,False,N/A
+SPARK-16640,True,Behavioral decision
+SPARK-18863,False,N/A
+HADOOP-12985,True,Behavioral decision
+SPARK-12538,True,Behavioral decision
+SPARK-18546,False,N/A
+SPARK-10682,True,Non-existence - ban decision
+SPARK-11532,True,Non-existence - ban decision
+HADOOP-8645,False,N/A
+SPARK-17672,False,N/A
+HADOOP-9737,True,Behavioral decision
+SPARK-18368,False,N/A
+SPARK-18349,False,N/A
+SPARK-9698,True,Behavioral decision
+SPARK-16613,False,N/A
+SPARK-16711,False,N/A
+SPARK-9738,True,Non-existence - ban decision
+HADOOP-6661,False,N/A
+SPARK-17160,False,N/A
+SPARK-17617,False,N/A
+HADOOP-11931,False,N/A
+SPARK-12144,True,Behavioral decision
+SPARK-12510,True,Structural decision
+SPARK-11485,True,Structural decision
+SPARK-18538,False,N/A
+SPARK-9867,True,Structural decision
+HADOOP-2082,True,Behavioral decision
+HADOOP-12006,False,N/A
+SPARK-17644,False,N/A
+SPARK-14042,True,Behavioral decision
+SPARK-17618,False,N/A
+HADOOP-1831,True,Behavioral decision
+HADOOP-12994,False,N/A
+HADOOP-11077,False,N/A
+SPARK-17492,False,N/A
+SPARK-18754,True,Structural decision
+HADOOP-12447,False,N/A
+HADOOP-13270,False,N/A
+HADOOP-13575,False,N/A
+HADOOP-3228,True,Behavioral decision
+SPARK-11730,True,Behavioral decision
+SPARK-18850,True,Structural decision
+HADOOP-12651,True,Structural decision
+SPARK-14345,True,Structural decision
+HADOOP-11380,False,N/A
+SPARK-1714,True,Behavioral decision
+SPARK-14375,True,Structural decision
+SPARK-16804,False,N/A
+SPARK-17374,False,N/A
+HADOOP-10937,False,N/A
+SPARK-16664,False,N/A
+HADOOP-12407,False,N/A
+SPARK-17661,True,Structural decision
+HADOOP-12356,False,N/A
+HADOOP-12579,True,Behavioral decision
+HADOOP-11547,False,N/A
+SPARK-15718,False,N/A
+SPARK-14776,True,Structural decision
+SPARK-14866,True,Structural decision
+SPARK-14831,True,Behavioral decision
+SPARK-13075,True,Behavioral decision
+HADOOP-11575,False,N/A
+HADOOP-13132,False,N/A
+SPARK-13031,False,N/A
+SPARK-14995,False,N/A
+HADOOP-12843,False,N/A
+HADOOP-13149,False,N/A
+SPARK-13805,True,Behavioral decision
+SPARK-11742,False,N/A
+SPARK-7440,True,Non-existence - ban decision
+HADOOP-11139,True,Structural decision
+HADOOP-12116,False,N/A
+HADOOP-13422,False,N/A
+HADOOP-12317,False,N/A
+HADOOP-11698,True,Non-existence - ban decision
+SPARK-15887,True,Structural decision
+SPARK-9774,True,Behavioral decision
+SPARK-13671,True,Structural decision
+SPARK-17512,False,N/A
+SPARK-18513,False,N/A
+HADOOP-13824,False,N/A
+SPARK-15643,False,N/A
+SPARK-12177,True,Structural decision
+SPARK-14281,False,N/A
+SPARK-19048,False,N/A
+SPARK-19081,False,N/A
+SPARK-12228,True,Behavioral decision
+SPARK-18372,False,N/A
+SPARK-14396,False,N/A
+SPARK-16123,False,N/A

@@ -1,0 +1,3 @@
+This program parses the classified issues (csvs, with the fields being Issue ID, added, removed, changed, total, existence, property, executive) of all projects (cassandra, hadoop, tajo), parses them, and rewrites them into a format usable by the statistics scripts (Issue ID, Added, Removed, Changed, Total, Type 1, Type 2, Type 3). 
+
+This output format also separates out the issues by their rankings: issues that had changes of type "add" go into the `added.csv`, etc...

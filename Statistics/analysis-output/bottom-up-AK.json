@@ -1,0 +1,4229 @@
+{
+    "issues": [
+        {
+            "key": "TAJO-1125",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6671",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-279",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-1623",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8099",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1230",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-132",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-65",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1848",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-209",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-87",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9425",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7443",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1437",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-688",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-91",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3761",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-127",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5417",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-287",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1397",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1092",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-498",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1344",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9459",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5286",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14660",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-9649",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-520",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7981",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15004",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4348",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14115",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2096",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-574",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1275",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-1974",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-851",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2106",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2107",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-692",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-127",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2478",
+            "tags": [
+                {
+                    "name": "Property"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1391",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2108",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-997",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-477",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-385",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-297",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6299",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6520",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-10661",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-333",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-211",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14894",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1670",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-252",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1608",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8901",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-121",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-547",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15066",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1567",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-705",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4495",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-176",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-322",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2645",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-284",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8358",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4415",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-620",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2886",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4952",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-11115",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-458",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1131",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7544",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-99",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-981",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-288",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1237",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12259",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1143",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2107",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1501",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3647",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5226",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-331",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4009",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2184",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8568",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3297",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4017",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4297",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-195",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-239",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2178",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1873",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1278",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-380",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2398",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-197",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1883",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-743",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-252",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-972",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-941",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1053",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1985",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-783",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-702",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1986",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14116",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3680",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7091",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1290",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-535",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-193",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-598",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1160",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-16",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1263",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2936",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-234",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5714",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-651",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14421",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14806",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-321",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1189",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2083",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-704",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12151",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-644",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1026",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5918",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1969",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-13258",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-336",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4675",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-5073",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-711",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-9734",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2677",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-647",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3677",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4656",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1743",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1266",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1963",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1822",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6547",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-101",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-178",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-1185",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-789",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3722",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6566",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-930",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2185",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2085",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4838",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-39",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12716",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-990",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1075",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-13300",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1766",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7622",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7066",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2585",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-2188",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6907",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3246",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-579",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8671",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1035",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3307",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-694",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-930",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7257",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1186",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1221",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7705",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1368",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2387",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7464",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2590",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-11475",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2318",
+            "tags": [
+                {
+                    "name": "Property"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-752",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1913",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5348",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5545",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1230",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6877",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8984",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14825",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6903",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2419",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14937",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-6832",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9143",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7144",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1268",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-895",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6717",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14118",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6504",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2647",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12385",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10995",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6018",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12796",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-230",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3216",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2882",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-8805",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3427",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3003",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3573",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3646",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2841",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3585",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3702",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1860",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3127",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4051",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3750",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2392",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3617",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4533",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3815",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3862",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5401",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5855",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4311",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3555",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-9760",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-913",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-11159",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-8561",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-16",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8942",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4565",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-3628",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1021",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1109",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7970",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7560",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-5467",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7272",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-4813",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-317",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-4611",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12955",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2676",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-4359",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2885",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1221",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4179",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9669",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-13910",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-501",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6477",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12513",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6366",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8218",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9921",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4480",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-30",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-3077",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5457",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4261",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7900",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-13037",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-616",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4937",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4883",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4861",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4790",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5031",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3648",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2284",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10687",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-9515",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15789",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-841",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5455",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4180",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2181",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-1311",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10607",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-494",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-569",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-4693",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3100",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5926",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7601",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-513",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7206",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-707",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-887",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11546",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6669",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-6956",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1493",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-13415",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5977",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-13444",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-10091",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5325",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8844",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-2166",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7967",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-8681",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-6252",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3039",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-3200",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2837",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1338",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6561",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6733",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7242",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12123",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-9629",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2802",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8193",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4597",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3656",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3983",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8053",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-4372",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4349",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11564",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6511",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2719",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6781",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6919",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11769",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6916",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15553",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14654",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-13786",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6855",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-2434",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2708",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2186",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3661",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7669",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-5189",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2858",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-6982",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8805",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14970",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15137",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1611",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-15407",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3121",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8169",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-5950",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3853",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1937",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-9002",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8714",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5324",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2731",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-2765",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1172",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-3050",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7807",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3659",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-6828",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-4819",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-13033",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-5079",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-12504",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-12847",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7032",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-9449",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10880",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9761",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10646",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1712",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2080",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11138",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4091",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-4817",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6040",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-7279",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-8684",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1135",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-9945",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2980",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1809",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10022",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3684",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-10542",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2884",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-14861",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-5698",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-5810",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5902",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10629",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-6696",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2049",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-13909",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1936",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-12563",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6840",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11768",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11920",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10728",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7224",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12636",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7380",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-1073",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10893",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-2210",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3175",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4224",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7773",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3256",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5864",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-13945",
+            "tags": [
+                {
+                    "name": "Property"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12665",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7715",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-10855",
+            "tags": [
+                {
+                    "name": "Property"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "TAJO-1686",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-8060",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3398",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7657",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2496",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-7933",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-13758",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-11967",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12032",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12269",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-11738",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12035",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-7019",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-4049",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-4103",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-12486",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-103",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2188",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-4580",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-3451",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11154",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2217",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-3637",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-11537",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6820",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-571",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8237",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-326",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8377",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3508",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3116",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12740",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-221",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8155",
+            "tags": [
+                {
+                    "name": "Property"
+                },
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2005",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-6255",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-8855",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-4990",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4108",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-5044",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15379",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "CASSANDRA-15945",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7540",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-5502",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1210",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-674",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-7612",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-5196",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1041",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10177",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-4205",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1417",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-10433",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-3662",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5307",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12282",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12235",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12425",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-12387",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5411",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "MAPREDUCE-5890",
+            "tags": [
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "YARN-5412",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-1354",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HADOOP-14738",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-10881",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-611",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-90",
+            "tags": [
+                {
+                    "name": "Existence"
+                }
+            ]
+        },
+        {
+            "key": "YARN-2010",
+            "tags": [
+                {
+                    "name": "Existence"
+                },
+                {
+                    "name": "Property"
+                }
+            ]
+        },
+        {
+            "key": "HDFS-7426",
+            "tags": [
+                {
+                    "name": "Executive"
+                }
+            ]
+        }
+    ]
+}
