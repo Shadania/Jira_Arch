@@ -9,17 +9,17 @@ from script_shared import filter_tags, add_properties_to_issues, count_property
 # Gets the issue sets with saved properties, depending on the argument, which can be either AK or non-AK
 def get_AK_issues_with_properties(AK):
     non = 'non-' if not AK else ''
-    td_path = f"issue-sets/{non}AK_td_only.json"
-    bu_path = f"issue-sets/{non}AK_bu_only.json"
-    mav_path = f"issue-sets/{non}AK_mav_only.json"
+    td_path = f"analysis-output/issue-sets/{non}AK_td_only.json"
+    bu_path = f"analysis-output/issue-sets/{non}AK_bu_only.json"
+    mav_path = f"analysis-output/issue-sets/{non}AK_mav_only.json"
 
-    mav_td_path = f"issue-sets/{non}AK_mav_td.json"
-    mav_bu_path = f"issue-sets/{non}AK_mav_bu.json"
-    td_bu_path = f"issue-sets/{non}AK_td_bu.json"
+    mav_td_path = f"analysis-output/issue-sets/{non}AK_mav_td.json"
+    mav_bu_path = f"analysis-output/issue-sets/{non}AK_mav_bu.json"
+    td_bu_path = f"analysis-output/issue-sets/{non}AK_td_bu.json"
 
-    all_path = f"issue-sets/{non}AK_all.json"
+    all_path = f"analysis-output/issue-sets/{non}AK_all.json"
 
-    bhat_path = f"issue-sets/{non}AK_bhat.json"
+    bhat_path = f"analysis-output/issue-sets/{non}AK_bhat.json"
 
     td = filter_tags((json.load(open(td_path)))['issues'])
     bu = filter_tags((json.load(open(bu_path)))['issues'])
@@ -147,5 +147,4 @@ def plot_comparisons(AK):
 
 
 AK = True
-add_properties_to_issues(AK)
 plot_comparisons(AK)

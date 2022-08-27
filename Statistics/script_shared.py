@@ -4,6 +4,95 @@ from nltk.corpus import stopwords
 from datetime import datetime
 from jira import JIRA
 jira = JIRA('https://issues.apache.org/jira')
+import pandas
+
+annotated = 600 # Top n top-down issues to look at 
+bottomup = 1600 # Top n bottom-up issues to look at
+
+# Filters a list of issues by project
+def filter_project(issues, project):
+    if not project:
+        return issues
+    filtered_issues = []
+    for issue in issues:
+        issue_project = ((issue['key']).split('-'))[0]
+        if project == issue_project:
+            filtered_issues.append(issue)
+        
+    return filtered_issues
+
+# Gets the n top down issues, can be project specific
+def get_top_down_issues(n, project = None):
+    CAC = json.load(open('data/topdown/ComponentsAndConnectors.json',))
+    DF = json.load(open('data/topdown/DecisionFactors.json',))
+    R = json.load(open('data/topdown/Rationale.json',))
+    RS = json.load(open('data/topdown/ReusableSolutions.json',))
+
+    cac_issues = filter_project(CAC['issues'][:n], project)
+    df_issues = filter_project(DF['issues'][:n], project)
+    r_issues = filter_project(R['issues'][:n], project)
+    rs_issues = filter_project(RS['issues'][:n], project)
+
+    return (cac_issues, df_issues, r_issues, rs_issues)
+
+# Gets the n bottom-up issues from excel file, can be project specific
+def get_bottom_up_issues(n, project = None):
+    xlsx = pandas.ExcelFile("data/bottomup/bottom-up-saved.xlsx")
+
+    sheet2 = xlsx.parse(1)
+
+    issues = []
+
+    for i in range(n):
+        key = sheet2.iloc[i,0]
+        p = (key.split('-'))[0]
+        if ((not project) or p == project):
+            issue = {}
+            issue['key'] = key
+            issue['tags'] = []
+            if sheet2.iloc[i,2] == 'x':
+                issue['tags'].append({
+                    'name': 'Existence'
+                })
+            if sheet2.iloc[i,3] == 'x':
+                issue['tags'].append({
+                    'name': 'Property'
+                })
+            if sheet2.iloc[i,4] == 'x':
+                issue['tags'].append({
+                    'name': 'Executive'
+                })
+            issues.append(issue)
+    return issues
+
+def get_maven_issues(project = None):
+    issues = {
+        'added': [],
+        'removed': [],
+        'changed': [],
+        'total': []
+    }
+    for file in ['added.csv', 'removed.csv', 'changed.csv', 'total.csv']:
+        first = True
+        with open('data/maven/' + file, 'r') as f:
+            for line in f:
+                if first:
+                    first = False
+                    continue
+
+                csv = line.strip().split(',')
+                if project:
+                    if project != csv[0].split('-')[0]:
+                        continue
+                newIssue = {'key': csv[0], 'tags': []}
+                for i in [5, 6, 7]:
+                    if len(csv) > i:
+                        if csv[i]:
+                            newIssue['tags'].append({'name': csv[i]})
+
+                issues[file.split('.')[0]].append(newIssue)
+
+    return (issues['added'], issues['removed'], issues['changed'], issues['total'])
 
 
 # Generate qualitative data
@@ -149,10 +238,10 @@ def count_set_overlaps_and_return_sets(AK):
     non = 'non-' if not AK else ''
 
     # load analysis output
-    top_down_AK = filter_tags((json.load(open(f'analysis-output/top-down-{non}AK-issues.json',)))['issues'])
-    bottom_up_AK = filter_tags((json.load(open(f'analysis-output/bottom-up-{non}AK.json',)))['issues'])
-    maven_AK = filter_tags((json.load(open(f'analysis-output/maven-{non}AK.json')))['issues'])
-    bhat_AK = filter_tags((json.load(open(f"analysis-output/bhat-{non}AK.json")))['issues'])
+    top_down_AK = filter_tags((json.load(open(f'analysis-output/issues/top-down-{non}AK-issues.json',)))['issues'])
+    bottom_up_AK = filter_tags((json.load(open(f'analysis-output/issues/bottom-up-{non}AK.json',)))['issues'])
+    maven_AK = filter_tags((json.load(open(f'analysis-output/issues/maven-{non}AK.json')))['issues'])
+    bhat_AK = filter_tags((json.load(open(f"analysis-output/issues/bhat-{non}AK.json")))['issues'])
 
     # separate the three non-bhat (random) sets into a three-way intersection
     td = []
@@ -214,7 +303,7 @@ def count_set_overlaps_and_return_sets(AK):
         'all-overlap-count': len(all)
     }
 
-    with open(f'issue-sets/{non}AK-issue-set-counts.json', "w") as outfile:
+    with open(f'analysis-output/issue-sets/{non}AK-issue-set-counts.json', "w") as outfile:
         json.dump(output1, outfile)
 
     # return result!
@@ -224,16 +313,16 @@ def count_set_overlaps_and_return_sets(AK):
 # Add data to all issues in all issue lists
 def add_properties_to_issues(AK):
     non = 'non-' if not AK else ''
-    td_path = f"issue-sets/{non}AK_td_only.json"
-    bu_path = f"issue-sets/{non}AK_bu_only.json"
-    mav_path = f"issue-sets/{non}AK_mav_only.json"
+    td_path = f"analysis-output/issue-sets/{non}AK_td_only.json"
+    bu_path = f"analysis-output/issue-sets/{non}AK_bu_only.json"
+    mav_path = f"analysis-output/issue-sets/{non}AK_mav_only.json"
 
-    mav_td_path = f"issue-sets/{non}AK_mav_td.json"
-    mav_bu_path = f"issue-sets/{non}AK_mav_bu.json"
-    td_bu_path = f"issue-sets/{non}AK_td_bu.json"
+    mav_td_path = f"analysis-output/issue-sets/{non}AK_mav_td.json"
+    mav_bu_path = f"analysis-output/issue-sets/{non}AK_mav_bu.json"
+    td_bu_path = f"analysis-output/issue-sets/{non}AK_td_bu.json"
 
-    all_path = f"issue-sets/{non}AK_all.json"
-    bhat_path = f"issue-sets/{non}AK_bhat.json"
+    all_path = f"analysis-output/issue-sets/{non}AK_all.json"
+    bhat_path = f"analysis-output/issue-sets/{non}AK_bhat.json"
 
     paths = [td_path, bu_path, mav_path, mav_td_path, mav_bu_path, td_bu_path, all_path, bhat_path]
     quit_add = True
@@ -245,7 +334,7 @@ def add_properties_to_issues(AK):
         return
 
     parents = []
-    with open("parents/parents.json", 'r') as f:
+    with open("analysis-output/parents/parents.json", 'r') as f:
         parents = json.load(f)['parents']
 
     td, td_bu, bu, mav, mav_td, mav_bu, all, bhat = count_set_overlaps_and_return_sets(AK)

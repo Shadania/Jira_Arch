@@ -27,7 +27,7 @@ def get_AK_issues_with_properties(AK, full = False):
         filenames = ['td_only', 'bu_only', 'mav_only', 'mav_td', 'mav_bu', 'td_bu', 'all', 'bhat']
     results = []
     for file in filenames:
-        results.append(filter_tags(json.load(open(f'issue-sets/{non}AK_{file}.json'))['issues']))
+        results.append(filter_tags(json.load(open(f'analysis-output/issue-sets/{non}AK_{file}.json'))['issues']))
     return results
 
 def plot_AK_vs_non_AK(property):
@@ -87,7 +87,4 @@ def AK_vs_non_AK():
     for prop in box_props:
         box_plot_AK_vs_non_AK(prop)
 
-AK = True
-add_properties_to_issues(not AK)
 AK_vs_non_AK()
-# parents()
