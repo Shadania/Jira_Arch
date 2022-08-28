@@ -37,4 +37,9 @@ public class IssueListController {
     public void postReindex() throws InterruptedException {
         issueListService.reindex();
     }
+
+    @PostMapping("issue-list/{id}/reload")
+    public void postReload(@PathVariable long id, @RequestParam(defaultValue = "") List<String> filterUsers) {
+        issueListService.refreshIssueList(id, filterUsers);
+    }
 }

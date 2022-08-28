@@ -13,6 +13,9 @@
             <b-button size="sm" pill disabled class="mb-1">
               Edit <b-icon icon="pencil" aria-hidden="true"></b-icon>
             </b-button>
+            <b-button size="sm" pill variant="success" class="mb-1" @click="reloadIssueList(data.index, data.item.id)">
+              Get new issues <b-icon icon="arrow-clockwise"></b-icon>
+            </b-button>
           </template>
         </b-table>
       </div>
@@ -109,6 +112,13 @@ export default {
           console.log(error);
         })
       }
+    },
+    reloadIssueList(index, id){
+      axios.post(url + "issue-list/" + id + "/reload").then(() => {
+        this.issueLists.split(index, 1);
+      }).catch(error => {
+        console.log(error);
+      })
     },
     onSubmit() {
       this.$bvModal.hide('add-issue-list')

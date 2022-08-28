@@ -111,20 +111,26 @@ public class TagService {
         Tag propertyTag = tagRepository.findByName("Property");
 
         // find new tag if exists
-        Tag newNameTag = tagRepository.findByName(newTag);
-        if (newNameTag == null) {
-            // create
-            newNameTag = new Tag();
-            newNameTag.setName(newTag);
-            tagRepository.save(newNameTag);
+        Tag newNameTag = null;
+        if (newTag != null) {
             newNameTag = tagRepository.findByName(newTag);
+            if (newNameTag == null) {
+                // create
+                newNameTag = new Tag();
+                newNameTag.setName(newTag);
+                tagRepository.save(newNameTag);
+                newNameTag = tagRepository.findByName(newTag);
+            }
         }
 
         Tag finalNewNameTag = newNameTag;
 
         lines.forEach(line -> {
             Issue issue = issueRepo.findByKey(line.key);
+            // System.out.println(line.key);
+            if (issue == null) {
 
+            }
             Set<Tag> tags = issue.getTags();
             if (line.existence) tags.add(existenceTag);
             else tags.remove(existenceTag);
@@ -134,8 +140,8 @@ public class TagService {
 
             if (line.executive) tags.add(executiveTag);
             else tags.remove(executiveTag);
-
-            tags.add(finalNewNameTag);
+            if (finalNewNameTag != null)
+                tags.add(finalNewNameTag);
 
             issue.setTags(tags);
 

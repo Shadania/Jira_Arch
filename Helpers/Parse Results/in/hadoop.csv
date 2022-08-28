@@ -1,4 +1,4 @@
-Issue ID,Added,Removed,Updated,Total,Existence,Property,Executive
+issue_id,Added,Removed,Updated,Total,Existence,Property,Executive
 MAPREDUCE-279,83,0,0,83,x,x,
 YARN-1,65,47,0,112,x,,
 MAPREDUCE-3582,32,0,0,32,,,
@@ -11,7 +11,7 @@ MAPREDUCE-4238,12,0,0,12,,,x
 MAPREDUCE-2765,10,0,0,10,x,x,
 MAPREDUCE-2863,8,1,3,12,x,,x
 MAPREDUCE-3868,8,8,0,16,,,
-MAPREDUCE-4438,8,0,0,8,x,,
+YARN-419,8,0,0,8,x,,
 MAPREDUCE-2858,7,0,0,7,x,x,
 MAPREDUCE-2719,6,0,0,6,x,,
 HDFS-234,5,0,0,5,x,,x

@@ -21,6 +21,7 @@ import org.springframework.stereotype.Service;
 import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class IssueListService {
@@ -42,11 +43,24 @@ public class IssueListService {
     public IssueList addIssueListFromApacheIssues(IssueList issueList, List<String> filterUsers){
         issueListRepository.save(issueList);
         try {
-            addFromKey(issueList, filterUsers, 0, 200);
+            addFromKey(issueList, filterUsers, 0, 200, false);
         } catch(Exception e){
             e.printStackTrace();
         }
         return issueList;
+    }
+    public void refreshIssueList(long issueListIndex, List<String> filterUsers) {
+        Optional<IssueList> result = issueListRepository.findById(issueListIndex);
+        if (result.isEmpty()) {
+            return;
+        }
+        IssueList list = result.get();
+
+        try {
+            addFromKey(list, filterUsers, 0, 200, true);
+        } catch(Exception e){
+            e.printStackTrace();
+        }
     }
 
     /**
@@ -61,7 +75,7 @@ public class IssueListService {
      * @param startAt used for recursion
      * @param step how many issues it queries per api call
      */
-    public void addFromKey(IssueList issueList, List<String> filterUsers, int startAt, int step) throws UnirestException {
+    public void addFromKey(IssueList issueList, List<String> filterUsers, int startAt, int step, boolean refresh) throws UnirestException {
         HttpResponse<JsonNode> response = Unirest.get("https://issues.apache.org/jira/rest/api/2/search")
                 .basicAuth("tomdenboon", "SY@UD48hDCX$Uf*")
                 .header("Accept", "application/json")
@@ -83,6 +97,18 @@ public class IssueListService {
             JSONObject issueJson = issuesJson.getJSONObject(i);
             String key = issueJson.getString("key");
             issue.setKey(key);
+
+            // if we already know this, skip this issue
+            if (refresh) {
+                if (issueRepository.findByKey(key) != null) {
+                    // System.out.println("Skipping issue with key " + key);
+                    // continue;
+                    // note: seems to come in chronological order, so for optimization,
+                    // might be able to just return here
+                    return;
+                }
+                System.out.println("New issue found: " + key);
+            }
 
             JSONObject fields = issueJson.getJSONObject("fields");
             if(!fields.isNull("description")){
@@ -117,7 +143,7 @@ public class IssueListService {
         commentRepository.saveAll(comments);
         issueListIndexer.index(issueList, issues, comments);
         if(offset+step<total){
-            addFromKey(issueList, filterUsers, offset+step, step);
+            addFromKey(issueList, filterUsers, offset+step, step, refresh);
         }
     }
 
