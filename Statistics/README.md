@@ -4,8 +4,9 @@
 - Run all the scripts in order.
 	+ 0 installs some other dependencies
 	+ 1 analyzes the data and prepares it for statistics
-	+ 2 generates the per-method graphs
-	+ 3 generates the AK versus non-AK graphs
+	+ 2 generates the precision graphs
+	+ 3 generates the per-method graphs
+	+ 4 generates the AK versus non-AK graphs
 	
 # Folders
 - analysis-output: The output from script 1. Input for scripts 2 and 3.
