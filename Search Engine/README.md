@@ -1,5 +1,8 @@
 This Search Engine works off of the (manually or otherwise) classified issues. They are inserted into the search engine in ways documented below and through the frontend can be indexed and searched to find specific knowledge.
 
+# First Time Setup
+First, ensure the database is set up: have a look at the Data folder. Next, install the prerequisites for the backend and the frontend. Now you should be good to run the search engine.
+
 # How to run
 First, start the backend. Then, run the frontend. Now, you should be able to access the frontend on `localhost:420`. More detailed instructions for back- and frontend in the respective folders.
 
@@ -7,7 +10,7 @@ First, start the backend. Then, run the frontend. Now, you should be able to acc
 # How to use the Search Engine
 
 ## Old Usage Guides
-Note that accessing these documents may require you to request permission. Additionally, they may not be entirely up to date anymore.
+Note that accessing these documents may require you to request permission to view them. Additionally, they may not be entirely up to date anymore.
 
 - [Steps to set up the environment](https://docs.google.com/document/d/1RJhU2w3XLODsNbTUNbwatcU6dYBrHAZGCRLndjJI-4k/edit)
 - [Site User Guide](https://docs.google.com/document/d/1DYtzWahtR1CmjO6pBcleQ0aQKj4qGfu0OXq4KosSuV4/edit)
