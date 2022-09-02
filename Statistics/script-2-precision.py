@@ -93,6 +93,82 @@ def plot_precision_data(tag = ""):
     if show_figures:
         plt.show()
 
+
+def plot_average_precision_data(tag = ""):
+    cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
+
+    # average out the keywords precision data
+    max_k = len(maven_total_prec)
+    keywords_precision = []
+    for i in range(len(cac_precision)):
+        if i >= max_k:
+            break
+        keywords_precision.append((cac_precision[i] + df_precision[i] + r_precision[i] + rs_precision[i]) * 0.25)
+
+    if len(bu_precision) > max_k:
+        bu_precision = bu_precision[:max_k]
+
+    fig, ax = plt.subplots()
+    ax.plot(keywords_precision, label='Keywords Searches')
+    ax.plot(maven_total_prec, label='Maven Dependencies')
+    ax.plot(bu_precision, label='Static SC Analysis')
+
+    ax.set(xlabel='k', ylabel='Precision')
+    ax.set_title(tag)
+    ax.legend()
+
+    fig.set_size_inches(8,4.5)
+    plt.savefig(f'figures/precision/average_{tag}_precision.png')
+    if show_figures:
+        plt.show()
+
+def plot_limited_precision_data(tag = ""):
+    cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
+
+    max_k = len(maven_total_prec)
+    for maven_list in [maven_added_prec, maven_removed_prec, maven_changed_prec]:
+        if len(maven_list) < max_k:
+            max_k = len(maven_list)
+    
+    maven_added_prec = maven_added_prec[:max_k]
+    maven_removed_prec = maven_removed_prec[:max_k]
+    maven_changed_prec = maven_changed_prec[:max_k]
+    
+    fig, ax = plt.subplots()
+    ax.plot(maven_added_prec, label='Maven Dependencies: Added')
+    ax.plot(maven_removed_prec, label='Maven Dependencies: Removed')
+    ax.plot(maven_changed_prec, label='Maven Dependencies: Changed')
+
+    ax.set(xlabel='k', ylabel='Precision')
+    ax.set_title(tag)
+    ax.legend()
+    fig.set_size_inches(8,4.5)
+    plt.savefig(f'figures/precision/maven_limited_{tag}_precision.png')
+    if show_figures:
+        plt.show()
+
+def plot_query_precision_data(tag = ""):
+    cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
+    fig, ax = plt.subplots()
+
+    max_k = 600
+    cac_precision = cac_precision[:max_k]
+    df_precision = df_precision[:max_k]
+    r_precision = r_precision[:max_k]
+    rs_precision = rs_precision[:max_k]
+
+    ax.plot(cac_precision, label='Components And Connectors')
+    ax.plot(df_precision, label='Descision Factors')
+    ax.plot(r_precision, label='Rationale')
+    ax.plot(rs_precision, label='Reusable Solutions')
+    ax.set(xlabel='k', ylabel='Precision')
+    ax.set_title(tag)
+    ax.legend()
+    fig.set_size_inches(8,4.5)
+    plt.savefig(f'figures/precision/queries_precision.png')
+    if show_figures:
+        plt.show()
+
 # Counts the occurences of tag in issues
 def get_tag_count(issues, tag):
     count = 0
@@ -127,6 +203,7 @@ def plot_tag_data(project = None):
         plt.show()
 
 
+"""
 plot_precision_data()
 plot_precision_data("Existence")
 plot_precision_data("Property")
@@ -139,3 +216,12 @@ plot_tag_data('HDFS')
 plot_tag_data('MAPREDUCE')
 plot_tag_data('YARN')
 plot_tag_data('TAJO')
+
+
+plot_average_precision_data()
+for dec_type in ["Existence", "Executive", "Property"]:
+    plot_average_precision_data(dec_type)
+
+plot_limited_precision_data()
+plot_query_precision_data()
+"""

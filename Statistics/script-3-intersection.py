@@ -36,31 +36,57 @@ def get_AK_issues_with_properties(AK):
 
 
 
+def plot_method_type_yield(issue_list, filename):
+    # separate it out into projects
+    data = {}
+    types = ['Executive', 'Property', 'Existence']
+    for issue in issue_list:
+        project = issue['key'].split('-')[0]
+        if project not in data:
+            data[project] = {}
+        for tag in issue['tags']:
+            if tag['name'] in types:
+                thisTag = tag['name']
+                if thisTag not in data[project]:
+                    data[project][thisTag] = 0
+                data[project][thisTag] += 1
+
+    projects = data.keys()
+
+    x_labels = [project.title() for project in projects]
+
+    fig, ax = plt.subplots()
+
+    heights = []
+
+    for i in range(len(types)):
+        bottoms = [0] * len(projects)
+
+        for prev in heights:
+            for j in range(len(prev)):
+                bottoms[j] += prev[j]
+
+        heights.append([])
+        for project in projects:
+            if types[i] in data[project]:
+                heights[i].append(data[project][types[i]])
+            else:
+                heights[i].append(0)
+        
+
+        ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i])
+
+    ax.legend()
+    plt.title(f"Method Yields: {filename}")
+
+    plt.savefig(f'figures/intersection/method_comparison_{filename}.png')
+    if show_figures:
+        plt.show()
+
 
 def plot_property_comparison(issue_lists, issue_property, graph_labels, filename=""):
     # prop_lists: td, bu, mav, mav_td, mav_bu, td_bu, all, bhat
     labels, prop_lists = count_property(issue_lists, issue_property)
-    """
-    if issue_property == "status":
-        with open('output.json','w+') as outfile:
-            json.dump(prop_lists, outfile)
-        closedIdx = -1
-        resolvedIdx = -1
-        for i in range(len(labels)):
-            if labels[i].lower() == 'closed':
-                closedIdx = i
-            if labels[i].lower() == 'resolved':
-                resolvedIdx = i
-        if closedIdx == -1 or resolvedIdx == -1:
-            print("Something went wrong.")
-        else:
-            # we need to merge these
-            labels.pop(resolvedIdx)
-            for issue_list in prop_lists:
-                print(issue_list[closedIdx])
-                issue_list[closedIdx] += issue_list[resolvedIdx]
-                issue_list.pop(resolvedIdx)
-    """
 
     barWidth = 0.25
 
@@ -144,6 +170,10 @@ def plot_comparisons(AK):
         plot_property_comparison(lists, property, graph_labels)
     for property in properties_box:
         box_plot_property_distribution(lists, property, graph_labels)
+
+    plot_method_type_yield(td, "Keywords Searches")
+    plot_method_type_yield(bu, "Static SC Analysis")
+    plot_method_type_yield(mav, "Maven Dependencies")
 
 
 AK = True
