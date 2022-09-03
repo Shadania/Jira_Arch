@@ -162,9 +162,6 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
         while len(issue_list) < max_len:
             issue_list.append(0.0)
 
-    #print(property_count)
-    #exit(0)
-
     f_labels = []
     f_property_count = []
     for issue_list in issue_lists:
@@ -183,9 +180,6 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
                 f_property_count[idx].append(property_count[idx][i])
                 idx += 1
 
-    #print(f_property_count)
-    #exit(0)
-
     return f_labels, f_property_count
 
 # Add data to an issue
@@ -195,14 +189,22 @@ def add_properties(issue, parents):
     stop = set(stopwords.words('english'))
     
     jira_issue = jira.issue(issue['key'])
+    """
+    for field in jira_issue.raw['fields']:
+        if not 'customfield' in field:
+            print(field)
+    print(jira_issue.fields.updated)
+    exit(0)
+    """
 
     datetime_format = "%Y-%m-%dT%H:%M:%S.%f%z" # https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
     created_datetime = datetime.strptime(jira_issue.fields.created, datetime_format)
     if jira_issue.fields.resolutiondate is not None:
         resolved_datetime = datetime.strptime(jira_issue.fields.resolutiondate, datetime_format)
     else:
-        resolved_datetime = datetime.now()
-        created_datetime = created_datetime.replace(tzinfo=None)
+        #resolved_datetime = datetime.now()
+        #created_datetime = created_datetime.replace(tzinfo=None)
+        resolved_datetime = datetime.strptime(jira_issue.fields.updated, datetime_format)
 
     issue['duration'] = (resolved_datetime - created_datetime).days # days, integer
 
@@ -350,8 +352,8 @@ def add_properties_to_issues(AK):
         if not os.path.exists(path):
             quit_add = False
             break
-    if quit_add:
-        return
+    #if quit_add:
+    #    return
 
     parents = []
     with open("analysis-output/parents/parents.json", 'r') as f:
