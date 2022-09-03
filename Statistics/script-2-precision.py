@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 
 from script_shared import annotated, bottomup
-from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues
+from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues, colors
 
 show_figures = False
 
@@ -63,15 +63,23 @@ def generate_precision_data(tag):
 def plot_precision_data(tag = ""):
     cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
     fig, ax = plt.subplots()
-    ax.plot(cac_precision, label='Components And Connectors')
-    ax.plot(df_precision, label='Descision Factors')
-    ax.plot(r_precision, label='Rationale')
-    ax.plot(rs_precision, label='Reusable Solutions')
-    ax.plot(bu_precision, label='Bottom Up Issues')
-    ax.plot(maven_added_prec, label='Maven Issues: Added')
-    ax.plot(maven_removed_prec, label='Maven Issues: Removed')
-    ax.plot(maven_changed_prec, label='Maven Issues: Changed')
-    ax.plot(maven_total_prec, label='Maven Issues: Total')
+
+    to_plot = [cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec]
+    labels = [
+        'Keywords: Components And Connectors',
+        'Keywords: Descision Factors',
+        'Keywords: Rationale',
+        'Keywords: Reusable Solutions',
+        'Static SC Analysis',
+        'Maven Dependencies: Added',
+        'Maven Dependencies: Removed',
+        'Maven Dependencies: Changed',
+        'Maven Dependencies: Total'
+    ]
+
+    for i in range(len(to_plot)):
+        ax.plot(to_plot[i], label=labels[i], color=colors[i])
+
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
     ax.legend()
@@ -81,10 +89,10 @@ def plot_precision_data(tag = ""):
         plt.show()
 
     fig, ax = plt.subplots()
-    ax.plot(maven_added_prec, label='Maven Issues: Added')
-    ax.plot(maven_removed_prec, label='Maven Issues: Removed')
-    ax.plot(maven_changed_prec, label='Maven Issues: Changed')
-    ax.plot(maven_total_prec, label='Maven Issues: Total')
+    ax.plot(maven_added_prec, label='Maven Dependencies: Added')
+    ax.plot(maven_removed_prec, label='Maven Dependencies: Removed')
+    ax.plot(maven_changed_prec, label='Maven Dependencies: Changed')
+    ax.plot(maven_total_prec, label='Maven Dependencies: Total')
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
     ax.legend()
@@ -109,9 +117,9 @@ def plot_average_precision_data(tag = ""):
         bu_precision = bu_precision[:max_k]
 
     fig, ax = plt.subplots()
-    ax.plot(keywords_precision, label='Keywords Searches')
-    ax.plot(maven_total_prec, label='Maven Dependencies')
-    ax.plot(bu_precision, label='Static SC Analysis')
+    ax.plot(keywords_precision, label='Keywords Searches', color=colors[0])
+    ax.plot(maven_total_prec, label='Maven Dependencies', color=colors[1])
+    ax.plot(bu_precision, label='Static SC Analysis', color=colors[2])
 
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
@@ -135,9 +143,9 @@ def plot_limited_precision_data(tag = ""):
     maven_changed_prec = maven_changed_prec[:max_k]
     
     fig, ax = plt.subplots()
-    ax.plot(maven_added_prec, label='Maven Dependencies: Added')
-    ax.plot(maven_removed_prec, label='Maven Dependencies: Removed')
-    ax.plot(maven_changed_prec, label='Maven Dependencies: Changed')
+    ax.plot(maven_added_prec, label='Maven Dependencies: Added', color=colors[0])
+    ax.plot(maven_removed_prec, label='Maven Dependencies: Removed', color=colors[1])
+    ax.plot(maven_changed_prec, label='Maven Dependencies: Changed', color=colors[2])
 
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
@@ -157,10 +165,11 @@ def plot_query_precision_data(tag = ""):
     r_precision = r_precision[:max_k]
     rs_precision = rs_precision[:max_k]
 
-    ax.plot(cac_precision, label='Components And Connectors')
-    ax.plot(df_precision, label='Descision Factors')
-    ax.plot(r_precision, label='Rationale')
-    ax.plot(rs_precision, label='Reusable Solutions')
+    ax.plot(cac_precision, label='Components And Connectors', color=colors[0])
+    ax.plot(df_precision, label='Descision Factors', color=colors[1])
+    ax.plot(r_precision, label='Rationale', color=colors[2])
+    ax.plot(rs_precision, label='Reusable Solutions', color=colors[3])
+
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
     ax.legend()
@@ -184,17 +193,17 @@ def get_tag_count_list(issue_list, tag):
 
 # Plots the tag data for each indicidual tag, can be project specific
 def plot_tag_data(project = None):
-    labels = ['CAC', 'DF', 'R', 'RS', 'Bottom-Up', 'MVN-Add', 'MVN-Rem', 'MVN-Cha', 'MVN-Tot']
+    labels = ['KW-CAC', 'KW-DF', 'KW-R', 'KW-RS', 'SSC', 'MVN-Add', 'MVN-Rem', 'MVN-Cha', 'MVN-Tot']
     issue_list = list(get_top_down_issues(annotated, project))
     issue_list.append(get_bottom_up_issues(1200, project))
     issue_list.extend(get_maven_issues(project))
     if not project:
         project = 'All Projects'
     fig, ax = plt.subplots()
-    ax.bar(labels, get_tag_count_list(issue_list, 'Existence'), 0.7, label='Existence')
-    ax.bar(labels, get_tag_count_list(issue_list, 'Property'), 0.7, bottom = get_tag_count_list(issue_list, 'Existence'), label='Property')
-    ax.bar(labels, get_tag_count_list(issue_list, 'Executive'), 0.7, bottom = [sum(x) for x in zip(get_tag_count_list(issue_list, 'Existence'), get_tag_count_list(issue_list, 'Property'))],  label='Executive')
-    ax.set_ylabel('tag_count')
+    ax.bar(labels, get_tag_count_list(issue_list, 'Existence'), 0.7, label='Existence', color=colors[0])
+    ax.bar(labels, get_tag_count_list(issue_list, 'Property'), 0.7, bottom = get_tag_count_list(issue_list, 'Existence'), label='Property', color=colors[1])
+    ax.bar(labels, get_tag_count_list(issue_list, 'Executive'), 0.7, bottom = [sum(x) for x in zip(get_tag_count_list(issue_list, 'Existence'), get_tag_count_list(issue_list, 'Property'))],  label='Executive', color=colors[2])
+    ax.set_ylabel('Tag Count')
     ax.set_title(project)
     ax.legend()
     fig.set_size_inches(10, 4)
@@ -203,7 +212,6 @@ def plot_tag_data(project = None):
         plt.show()
 
 
-"""
 plot_precision_data()
 plot_precision_data("Existence")
 plot_precision_data("Property")
@@ -224,4 +232,3 @@ for dec_type in ["Existence", "Executive", "Property"]:
 
 plot_limited_precision_data()
 plot_query_precision_data()
-"""

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 show_figures = False
 
-from script_shared import filter_tags, add_properties_to_issues, count_property
+from script_shared import filter_tags, count_property, colors
 
 
 # Gets the issue sets with saved properties, depending on the argument, which can be either AK or non-AK
@@ -72,10 +72,10 @@ def plot_method_type_yield(issue_list, filename):
                 heights[i].append(data[project][types[i]])
             else:
                 heights[i].append(0)
-        
 
-        ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i])
+        ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i], color=colors[i])
 
+    ax.set_ylabel("Tag Count")
     ax.legend()
     plt.title(f"Method Yields: {filename}")
 
@@ -87,6 +87,36 @@ def plot_method_type_yield(issue_list, filename):
 def plot_property_comparison(issue_lists, issue_property, graph_labels, filename=""):
     # prop_lists: td, bu, mav, mav_td, mav_bu, td_bu, all, bhat
     labels, prop_lists = count_property(issue_lists, issue_property)
+
+    # Settings for Which Labels to Merge
+    merged_labels = { # property -> {new label -> [old labels]}
+        "resolution": {
+            "Fixed": ["Fixed", "Won't Fix"],
+            "Not Fixed": ["Duplicate", "None"]
+        }
+    }
+
+    # Merge Labels according to Settings
+    if issue_property in merged_labels:
+        this_prop = merged_labels[issue_property]
+        for label in this_prop:
+            # this is the target label
+            # we need to count up the values of the array to arrive at final value
+            oldIdx = []
+            for val in this_prop[label]:
+                if val not in labels:
+                    continue
+                oldIdx.append(labels.index(val))
+                labels.pop(labels.index(val))
+            if len(oldIdx) == 0:
+                continue
+            labels.append(label)
+            oldIdx.sort(reverse=True)
+            for prop_list in prop_lists:
+                newVal = 0.0
+                for idx in oldIdx:
+                    newVal += prop_list.pop(idx)
+                prop_list.append(newVal)
 
     barWidth = 0.25
 
@@ -105,11 +135,11 @@ def plot_property_comparison(issue_lists, issue_property, graph_labels, filename
 
     idx = 0
     for prop_list in prop_lists:
-        ax.bar(r[idx], prop_list, width=barWidth, label=graph_labels[idx])
+        ax.bar(r[idx], prop_list, width=barWidth, label=graph_labels[idx], color=colors[idx])
         idx += 1
     
     ax.set_title(F"Property '{issue_property}'")
-    ax.set_ylabel("%")
+    ax.set_ylabel("Percentage of found issues")
     plt.xticks(x_axis_ticks, labels)
     fig.set_size_inches(2+2*len(labels), 4)
     ax.legend()
@@ -117,13 +147,14 @@ def plot_property_comparison(issue_lists, issue_property, graph_labels, filename
     if show_figures:
         plt.show()
 
-def box_plot_property_distribution(issue_lists, issue_property, graph_labels, filename = ""):
+def box_plot_property_distribution(issue_lists, issue_property, graph_labels, ylabel, filename = ""):
     values = []
     for issue_list in issue_lists:
         values.append([issue[issue_property] for issue in issue_list])
 
     fig, ax = plt.subplots()
-    ax.boxplot(values)
+    ax.boxplot(values, showfliers=False)
+    ax.set_ylabel(ylabel)
     
     xticks = [x+1 for x in range(len(graph_labels))]
 
@@ -140,14 +171,15 @@ def plot_comparisons(AK):
 
     properties_bar = ['status','resolution','is_a_subtask','issue_type','hierarchy']
     properties_box = ['description_size','comment_count','average_comment_size','attachment_count', 'duration']
+    properties_box_ylabel = ["Length in Characters", "Amount of Comments", "Average Size in Characters", "Amount", "Duration in Days"]
 
     # with intersection
-    graph_labels = ['Top Down', 'Bottom Up', 'Maven', 'Maven & Top Down', 'Maven & Bottom Up', 'Top Down & Bottom Up', 'Full Overlap', 'Random']
+    graph_labels = ['Keywords Searches', 'Static SC Analysis', 'Maven Dependencies', 'Maven & Keywords', 'Maven & SSC', 'Keywords & SSC', 'Full Overlap', 'Random']
     for property in properties_bar:
         plot_property_comparison(lists, property, graph_labels, "_intersection")
-    box_labels = ['TD', 'BU', 'MAV', 'MAV-TD', 'MAV-BU', 'TD-BU', 'ALL', 'RANDOM']
-    for property in properties_box:
-        box_plot_property_distribution(lists, property, box_labels, "_intersection")
+    box_labels = ['KW', 'SSC', 'MAV', 'MAV-KW', 'MAV-SSC', 'KW-SSC', 'ALL', 'RANDOM']
+    for i in range(len(properties_box)):
+        box_plot_property_distribution(lists, properties_box[i], box_labels, properties_box_ylabel[i], "_intersection")
 
     # without intersection
     for issue in mav_td:
@@ -165,11 +197,12 @@ def plot_comparisons(AK):
         bu.append(issue)
 
     lists = [td, bu, mav, bhat]
-    graph_labels = ['Top Down', 'Bottom Up', 'Maven', 'Random']
+    graph_labels = ['Keywords Searches', 'Static SC Analysis', 'Maven Dependencies', 'Random']
     for property in properties_bar:
         plot_property_comparison(lists, property, graph_labels)
-    for property in properties_box:
-        box_plot_property_distribution(lists, property, graph_labels)
+    graph_labels = ['Keywords', 'SC Analysis', 'Maven', 'Random']
+    for i in range(len(properties_box)):
+        box_plot_property_distribution(lists, properties_box[i], graph_labels, properties_box_ylabel[i])
 
     plot_method_type_yield(td, "Keywords Searches")
     plot_method_type_yield(bu, "Static SC Analysis")

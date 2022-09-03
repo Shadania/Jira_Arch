@@ -9,6 +9,19 @@ import pandas
 annotated = 600 # Top n top-down issues to look at 
 bottomup = 1600 # Top n bottom-up issues to look at
 
+# Configurable Colors to Avoid Red
+colors = [
+    "tab:blue",
+    "yellow",
+    "tab:green",
+    "tab:pink",
+    "cyan",
+    "tab:gray",
+    "tab:brown",
+    "tab:olive",
+    "tab:purple"
+]
+
 # Filters a list of issues by project
 def filter_project(issues, project):
     if not project:
@@ -118,12 +131,14 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
     for issue_list in issue_lists:
         property_count.append([])
     
+    multiplier = 100
+
     # Normalize data & return if static_labels is set
     if static_labels:
         for label in static_labels:
             idx = 0
             for issue_list in issue_lists:
-                property_count[idx].append((properties[idx].get(label, 0)/(1 if raw_count else len(issue_list)*100)))
+                property_count[idx].append((properties[idx].get(label, 0)/(1 if raw_count else len(issue_list))*multiplier))
                 idx += 1
         return labels, property_count
 
@@ -131,7 +146,7 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
     for label in labels:
         idx = 0
         for issue_list in issue_lists:
-            property_count[idx].append((properties[idx].get(label, 0)/(1 if raw_count else len(issue_list)*100)))
+            property_count[idx].append((properties[idx].get(label, 0)/(1 if raw_count else len(issue_list))*multiplier))
             idx += 1
     
     property_count_all = []
@@ -147,6 +162,8 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
         while len(issue_list) < max_len:
             issue_list.append(0.0)
 
+    #print(property_count)
+    #exit(0)
 
     f_labels = []
     f_property_count = []
@@ -165,6 +182,9 @@ def count_property(issue_lists, issue_property, static_labels=[], cutoff=0.05, r
             for issue_list in issue_lists:
                 f_property_count[idx].append(property_count[idx][i])
                 idx += 1
+
+    #print(f_property_count)
+    #exit(0)
 
     return f_labels, f_property_count
 
