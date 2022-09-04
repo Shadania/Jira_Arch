@@ -22,6 +22,45 @@ colors = [
     "tab:purple"
 ]
 
+hatches = [
+    '++',
+    'xx',
+    'oo',
+    'OO',
+    '..',
+    '**',
+    '//',
+    '\\\\',
+    '||',
+    '--',
+]
+
+plot_styles = [
+    '-', # solid line
+    '--', # dashed line
+    '-.', # dash-dot line
+    ':', # dotted line
+    ',', # pixel markers
+    
+    '-', # solid line
+    '--', # dashed line
+    '-.', # dash-dot line
+    ':', # dotted line
+    ',', # pixel markers
+
+
+
+    'k.', # point markers
+    'ko', # circle markers
+    'kv', # triangle-down markers
+    'k^', # triangle-up markers
+]
+
+box_scale = 'log' # or 'linear' for linear
+box_show_outliers = True # true for show, false for do not show
+
+graph_colors = False # true for Use Colors, false for Use Hatching
+
 # Filters a list of issues by project
 def filter_project(issues, project):
     if not project:

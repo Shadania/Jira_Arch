@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 show_figures = False
 
-from script_shared import filter_tags, count_property, colors
+from script_shared import filter_tags, count_property, colors, hatches
+from script_shared import box_scale, box_show_outliers, graph_colors
 
 
 # Gets the issue sets with saved properties, depending on the argument, which can be either AK or non-AK
@@ -73,7 +74,10 @@ def plot_method_type_yield(issue_list, filename):
             else:
                 heights[i].append(0)
 
-        ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i], color=colors[i])
+        if graph_colors:
+            ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i], color=colors[i])
+        else:
+            ax.bar(x_labels, heights[i], 0.7, bottom = bottoms, label=types[i], fill=False, hatch=hatches[i])
 
     ax.set_ylabel("Tag Count")
     ax.legend()
@@ -135,7 +139,10 @@ def plot_property_comparison(issue_lists, issue_property, graph_labels, filename
 
     idx = 0
     for prop_list in prop_lists:
-        ax.bar(r[idx], prop_list, width=barWidth, label=graph_labels[idx], color=colors[idx])
+        if graph_colors:
+            ax.bar(r[idx], prop_list, width=barWidth, label=graph_labels[idx], color=colors[idx])
+        else:
+            ax.bar(r[idx], prop_list, width=barWidth, label=graph_labels[idx], fill=False, hatch=hatches[idx])
         idx += 1
     
     ax.set_title(F"Property '{issue_property}'")
@@ -153,7 +160,9 @@ def box_plot_property_distribution(issue_lists, issue_property, graph_labels, yl
         values.append([issue[issue_property] for issue in issue_list])
 
     fig, ax = plt.subplots()
-    ax.boxplot(values, showfliers=False)
+    # ax.boxplot(values, showfliers=False)
+    ax.boxplot(values, showfliers=box_show_outliers)
+    ax.set_yscale(box_scale)
     ax.set_ylabel(ylabel)
     
     xticks = [x+1 for x in range(len(graph_labels))]
