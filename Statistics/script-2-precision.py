@@ -4,6 +4,8 @@ from script_shared import annotated, bottomup
 from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues, colors, plot_styles, hatches
 from script_shared import box_scale, box_show_outliers, graph_colors
 
+import numpy
+
 show_figures = False
 
 
@@ -88,6 +90,10 @@ def plot_precision_data(tag = ""):
             ax.plot(to_plot[i], plot_styles[i], label=labels[i], color=color)
 
     ax.set(xlabel='k', ylabel='Precision')
+    xticks = ax.get_xticks()[1:]
+    xticks[0] = 1
+    ax.set_xticks(xticks)
+
     ax.set_title(tag)
     ax.legend()
     fig.set_size_inches(8,4.5)
@@ -107,6 +113,9 @@ def plot_precision_data(tag = ""):
         ax.plot(maven_changed_prec, plot_styles[2], label='Maven Dependencies: Changed', color='#000000')
         ax.plot(maven_total_prec, plot_styles[3], label='Maven Dependencies: Total', color='#000000')
     ax.set(xlabel='k', ylabel='Precision')
+    xticks = ax.get_xticks()[1:]
+    xticks[0]=1
+    ax.set_xticks(xticks)
     ax.set_title(tag)
     ax.legend()
     fig.set_size_inches(8,4.5)
@@ -141,6 +150,9 @@ def plot_average_precision_data(tag = ""):
         ax.plot(bu_precision, plot_styles[2], label='Static SC Analysis', color='#000000')
 
     ax.set(xlabel='k', ylabel='Precision')
+    xticks = ax.get_xticks()[1:]
+    xticks[0] = 1
+    ax.set_xticks(xticks)
     ax.set_title(tag)
     ax.legend()
 
@@ -171,6 +183,9 @@ def plot_limited_precision_data(tag = ""):
         ax.plot(maven_removed_prec, plot_styles[1], label='Maven Dependencies: Removed', color='#000000')
         ax.plot(maven_changed_prec, plot_styles[2], label='Maven Dependencies: Changed', color='#000000')
 
+    xticks = ax.get_xticks()[1:]
+    xticks[0] = 1
+    ax.set_xticks(xticks)
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
     ax.legend()
@@ -200,6 +215,9 @@ def plot_query_precision_data(tag = ""):
         ax.plot(r_precision, plot_styles[2], label='Rationale', color='#000000')
         ax.plot(rs_precision, plot_styles[3], label='Reusable Solutions', color='#000000')
 
+    xticks = ax.get_xticks()[1:]
+    xticks[0] = 1
+    ax.set_xticks(xticks)
     ax.set(xlabel='k', ylabel='Precision')
     ax.set_title(tag)
     ax.legend()
