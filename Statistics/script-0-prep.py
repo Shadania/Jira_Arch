@@ -55,11 +55,11 @@ def do_topdown():
     DF_path = 'data/topdown/DecisionFactors.json'
     R_path = 'data/topdown/Rationale.json'
     RS_path = 'data/topdown/ReusableSolutions.json'
-    CAC = json.load(open(CAC_path,))
-    DF = json.load(open(DF_path,))
-    R = json.load(open(R_path,))
-    RS = json.load(open(RS_path,))
-    for issue_list in [CAC, DF, R, RS]:
+
+    for file_path in [CAC_path, DF_path, R_path, RS_path]:
+        issue_list = None
+        with open(file_path, 'r') as f:
+            issue_list = json.load(f)
         for line in issue_list['issues']: # {'key': ..., 'tags': [{'name': ...}]}
             key = line['key']
             if key not in changed_issues:
@@ -70,11 +70,14 @@ def do_topdown():
             newTags = [x for x in line['tags'] if x not in tags]
             # add the correct ones back
             for tag in changed_issues[key]:
-                newTags.append(tag)
+                newTags.append({'name':tag})
             # write
             line['tags'] = newTags
-    # write
-    json.dump(CAC, )
+
+        # write
+        with open(file_path, 'w') as f:
+            json.dump(issue_list, f)
+
 
 
 # do_bottomup()
