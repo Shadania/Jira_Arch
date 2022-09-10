@@ -12,7 +12,7 @@ bottomup = 1600 # Top n bottom-up issues to look at
 # Configurable Colors to Avoid Red
 colors = [
     "tab:blue",
-    "yellow",
+    "tab:orange",
     "tab:green",
     "tab:pink",
     "cyan",
@@ -56,10 +56,10 @@ plot_styles = [
     'k^', # triangle-up markers
 ]
 
-box_scale = 'log' # or 'linear' for linear
+box_scale = 'linear' # or 'linear' for linear
 box_show_outliers = True # true for show, false for do not show
 
-graph_colors = False # true for Use Colors, false for Use Hatching
+graph_colors = True # true for Use Colors, false for Use Hatching
 
 # Filters a list of issues by project
 def filter_project(issues, project):
