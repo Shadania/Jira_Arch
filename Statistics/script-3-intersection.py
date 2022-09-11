@@ -198,7 +198,7 @@ def plot_comparisons(AK):
 
     properties_bar = ['status','resolution','issue_type','hierarchy']
     properties_box = ['description_size','comment_count','average_comment_size', 'duration']
-    properties_box_ylabel = ["Length in Characters", "Amount of Comments", "Average Size in Characters", "Amount", "Duration in Days"]
+    properties_box_ylabel = ["Length in Words", "Amount of Comments", "Average Size in Words", "Amount", "Duration in Days"]
 
     # with intersection
     graph_labels = ['Keywords Searches', 'Static SC Analysis', 'Maven Dependencies', 'Maven & Keywords', 'Maven & SSC', 'Keywords & SSC', 'Full Overlap', 'Random']
