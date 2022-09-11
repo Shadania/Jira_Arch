@@ -58,6 +58,8 @@ def plot_AK_vs_non_AK(property):
     plt.savefig(f'figures/comparison/AK_vs_non_AK_{property}.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 def box_plot_AK_vs_non_AK(property, ylabel):
     issue_lists_AK = get_AK_issues_with_properties(True)
@@ -86,6 +88,8 @@ def box_plot_AK_vs_non_AK(property, ylabel):
     plt.savefig(f"figures/comparison/property_'{property}'_box_AK_vs_non-AK.png")
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 
 # All the AK vs non-AK issue property comparisons are called here

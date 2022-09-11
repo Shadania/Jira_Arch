@@ -86,6 +86,8 @@ def plot_method_type_yield(issue_list, filename):
     plt.savefig(f'figures/intersection/method_comparison_{filename}.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 
 def plot_property_comparison(issue_lists, issue_property, graph_labels, filename=""):
@@ -153,6 +155,8 @@ def plot_property_comparison(issue_lists, issue_property, graph_labels, filename
     plt.savefig(f"figures/intersection/property_'{issue_property}'{filename}.png")
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 def box_plot_property_distribution(issue_lists, issue_property, graph_labels, ylabel, filename = ""):
     values = []
@@ -173,6 +177,8 @@ def box_plot_property_distribution(issue_lists, issue_property, graph_labels, yl
 
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 def plot_comparisons(AK):
     td, bu, mav, mav_td, mav_bu, td_bu, all, bhat = get_AK_issues_with_properties(AK)

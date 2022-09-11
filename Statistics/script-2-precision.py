@@ -100,6 +100,8 @@ def plot_precision_data(tag = ""):
     plt.savefig(f'figures/precision/top_{annotated}_{tag}_precision.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
     fig, ax = plt.subplots()
     if graph_colors:
@@ -122,6 +124,8 @@ def plot_precision_data(tag = ""):
     plt.savefig(f'figures/precision/maven_{tag}_precision.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 
 def plot_average_precision_data(tag = ""):
@@ -160,6 +164,8 @@ def plot_average_precision_data(tag = ""):
     plt.savefig(f'figures/precision/average_{tag}_precision.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 def plot_limited_precision_data(tag = ""):
     cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
@@ -193,6 +199,8 @@ def plot_limited_precision_data(tag = ""):
     plt.savefig(f'figures/precision/maven_limited_{tag}_precision.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 def plot_query_precision_data(tag = ""):
     cac_precision, df_precision, r_precision, rs_precision, bu_precision, maven_added_prec, maven_removed_prec, maven_changed_prec, maven_total_prec = generate_precision_data(tag)
@@ -225,6 +233,8 @@ def plot_query_precision_data(tag = ""):
     plt.savefig(f'figures/precision/queries_precision.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 # Counts the occurences of tag in issues
 def get_tag_count(issues, tag):
@@ -266,6 +276,8 @@ def plot_tag_data(project = None):
     plt.savefig(f'figures/precision/tag_counts_{project}.png')
     if show_figures:
         plt.show()
+    else:
+        plt.close()
 
 
 plot_precision_data()
