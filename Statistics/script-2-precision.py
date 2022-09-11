@@ -280,26 +280,30 @@ def plot_tag_data(project = None):
         plt.close()
 
 
-plt.rc('font', **font)
+def calculate_precision():
+    plt.rc('font', **font)
 
-plot_precision_data()
-plot_precision_data("Existence")
-plot_precision_data("Property")
-plot_precision_data("Executive")
+    plot_precision_data()
+    plot_precision_data("Existence")
+    plot_precision_data("Property")
+    plot_precision_data("Executive")
 
-plot_tag_data()
-plot_tag_data('HADOOP')
-plot_tag_data('CASSANDRA')
-plot_tag_data('HDFS')
-plot_tag_data('MAPREDUCE')
-plot_tag_data('YARN')
-plot_tag_data('TAJO')
+    plot_tag_data()
+    plot_tag_data('HADOOP')
+    plot_tag_data('CASSANDRA')
+    plot_tag_data('HDFS')
+    plot_tag_data('MAPREDUCE')
+    plot_tag_data('YARN')
+    plot_tag_data('TAJO')
 
 
-plot_average_precision_data()
-plot_query_precision_data()
-for dec_type in ["Existence", "Executive", "Property"]:
-    plot_average_precision_data(dec_type)
-    plot_query_precision_data(dec_type)
+    plot_average_precision_data()
+    plot_query_precision_data()
+    for dec_type in ["Existence", "Executive", "Property"]:
+        plot_average_precision_data(dec_type)
+        plot_query_precision_data(dec_type)
 
-plot_limited_precision_data()
+    plot_limited_precision_data()
+
+if __name__ == "__main__":
+    calculate_precision()

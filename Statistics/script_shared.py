@@ -243,21 +243,12 @@ def add_properties(issue, parents):
     stop = set(stopwords.words('english'))
     
     jira_issue = jira.issue(issue['key'])
-    """
-    for field in jira_issue.raw['fields']:
-        if not 'customfield' in field:
-            print(field)
-    print(jira_issue.fields.updated)
-    exit(0)
-    """
 
     datetime_format = "%Y-%m-%dT%H:%M:%S.%f%z" # https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
     created_datetime = datetime.strptime(jira_issue.fields.created, datetime_format)
     if jira_issue.fields.resolutiondate is not None:
         resolved_datetime = datetime.strptime(jira_issue.fields.resolutiondate, datetime_format)
     else:
-        #resolved_datetime = datetime.now()
-        #created_datetime = created_datetime.replace(tzinfo=None)
         resolved_datetime = datetime.strptime(jira_issue.fields.updated, datetime_format)
 
     issue['duration'] = (resolved_datetime - created_datetime).days # days, integer
@@ -406,8 +397,8 @@ def add_properties_to_issues(AK):
         if not os.path.exists(path):
             quit_add = False
             break
-    #if quit_add:
-    #    return
+    if quit_add:
+        return
 
     parents = []
     with open("analysis-output/parents/parents.json", 'r') as f:
@@ -439,7 +430,4 @@ def add_properties_to_issues(AK):
 
 def get_issue_is_parent(issue_key):
     jira_issue = jira.issue(issue_key)
-    #if hasattr(jira_issue.fields, 'parent'):
-    #    return str(jira_issue.fields.parent)
-    #return None
     return len(jira_issue.fields.subtasks) > 0

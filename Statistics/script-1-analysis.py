@@ -111,8 +111,12 @@ for val in [True, False]:
     make_top_down_issues_json(val)
     make_bottom_up_issues_json(val)
 
-find_parents()
-count_set_overlaps_and_return_sets(True)
-count_set_overlaps_and_return_sets(False)
-add_properties_to_issues(True)
-add_properties_to_issues(False)
+def analyze():
+    find_parents()
+    count_set_overlaps_and_return_sets(True)
+    count_set_overlaps_and_return_sets(False)
+    add_properties_to_issues(True)
+    add_properties_to_issues(False)
+
+if __name__ == "__main__":
+    analyze()

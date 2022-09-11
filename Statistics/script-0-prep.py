@@ -1,7 +1,5 @@
-from re import L
+# required package
 import nltk
-
-# nltk.download('stopwords')
 
 # apply data/changed_issues.csv to bottomup & topdown
 # not maven because that was after the changes were made
@@ -21,7 +19,6 @@ def do_bottomup():
     bottomup_path = "data/bottomup/bottom-up-saved.xlsx"
     bottomup = pandas.ExcelFile(bottomup_path)
     sheet = bottomup.parse(1)
-    print(sheet)
 
     headers=['Existence', 'Property', 'Executive']
 
@@ -79,6 +76,12 @@ def do_topdown():
             json.dump(issue_list, f)
 
 
+# leaving this in so that it can be used in the future on new data
+# or the logic reused for similar enough data
+def prepare():
+    nltk.download('stopwords')
+    do_bottomup()
+    do_topdown()
 
-# do_bottomup()
-do_topdown()
+if __name__ == '__main__':
+    prepare()

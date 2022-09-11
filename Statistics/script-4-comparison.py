@@ -103,5 +103,9 @@ def AK_vs_non_AK():
     for i in range(len(box_props)):
         box_plot_AK_vs_non_AK(box_props[i], props_box_ylabel[i])
 
-plt.rc('font', **font)
-AK_vs_non_AK()
+def calculate_comparison():
+    plt.rc('font', **font)
+    AK_vs_non_AK()
+
+if __name__ == "__main__":
+    calculate_comparison()

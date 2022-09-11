@@ -235,7 +235,10 @@ def plot_comparisons(AK):
     plot_method_type_yield(bu, "Static SC Analysis")
     plot_method_type_yield(mav, "Maven Dependencies")
 
+def calculate_intersection():
+    AK = True
+    plt.rc('font', **font)
+    plot_comparisons(AK)
 
-AK = True
-plt.rc('font', **font)
-plot_comparisons(AK)
+if __name__ == "__main__":
+    calculate_intersection()
