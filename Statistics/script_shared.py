@@ -69,6 +69,13 @@ font = {
 
 linewidth = 3.0
 
+box_ymax = {
+    'average_comment_size': 200,
+    'comment_count': 150,
+    'description_size': 500,
+    'duration': 2500
+}
+
 # Filters a list of issues by project
 def filter_project(issues, project):
     if not project:

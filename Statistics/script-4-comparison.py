@@ -1,5 +1,5 @@
 from script_shared import filter_tags, count_property, colors, hatches
-from script_shared import box_scale, box_show_outliers, graph_colors, font
+from script_shared import box_scale, box_show_outliers, graph_colors, font, box_ymax
 import json
 import matplotlib.pyplot as plt
 
@@ -82,6 +82,7 @@ def box_plot_AK_vs_non_AK(property, ylabel):
     ax.boxplot(data, showfliers=box_show_outliers)
     ax.set_yscale(box_scale)
     ax.set_ylabel(ylabel)
+    plt.axis([None, None, None, box_ymax[property]]) # set limits
 
     plt.xticks([1, 2], ['AK Issues', 'Non-AK Issues'])
     plt.title(f"Property '{property}'")

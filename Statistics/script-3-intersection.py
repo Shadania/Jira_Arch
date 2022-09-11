@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 show_figures = False
 
 from script_shared import filter_tags, count_property, colors, hatches
-from script_shared import box_scale, box_show_outliers, graph_colors, font
+from script_shared import box_scale, box_show_outliers, graph_colors, font, box_ymax
 
 
 # Gets the issue sets with saved properties, depending on the argument, which can be either AK or non-AK
@@ -176,11 +176,11 @@ def box_plot_property_distribution(issue_lists, issue_property, graph_labels, yl
         values.append([issue[issue_property] for issue in issue_list])
 
     fig, ax = plt.subplots()
-    # ax.boxplot(values, showfliers=False)
     ax.boxplot(values, showfliers=box_show_outliers)
     ax.set_yscale(box_scale)
     ax.set_ylabel(ylabel)
-    
+    plt.axis([None, None, None, box_ymax[issue_property]]) # set limits
+
     xticks = [x+1 for x in range(len(graph_labels))]
 
     plt.xticks(xticks, graph_labels)
