@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 
 from script_shared import annotated, bottomup
 from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues
-from script_shared import colors, plot_styles, hatches, graph_colors, font
+from script_shared import colors, plot_styles, hatches, graph_colors, font, linewidth
 
 import numpy
 
@@ -82,7 +82,7 @@ def plot_precision_data(tag = ""):
 
     for i in range(len(to_plot)):
         if graph_colors:
-            ax.plot(to_plot[i], label=labels[i], color=colors[i])
+            ax.plot(to_plot[i], label=labels[i], color=colors[i], linewidth=linewidth)
         else:
             color = '#000000'
             if i > 4:
@@ -105,10 +105,10 @@ def plot_precision_data(tag = ""):
 
     fig, ax = plt.subplots()
     if graph_colors:
-        ax.plot(maven_added_prec, label='Maven Dependencies: Added', color=colors[0])
-        ax.plot(maven_removed_prec, label='Maven Dependencies: Removed', color=colors[1])
-        ax.plot(maven_changed_prec, label='Maven Dependencies: Changed', color=colors[2])
-        ax.plot(maven_total_prec, label='Maven Dependencies: Total', color=colors[3])
+        ax.plot(maven_added_prec, label='Maven Dependencies: Added', color=colors[0], linewidth=linewidth)
+        ax.plot(maven_removed_prec, label='Maven Dependencies: Removed', color=colors[1], linewidth=linewidth)
+        ax.plot(maven_changed_prec, label='Maven Dependencies: Changed', color=colors[2], linewidth=linewidth)
+        ax.plot(maven_total_prec, label='Maven Dependencies: Total', color=colors[3], linewidth=linewidth)
     else:
         ax.plot(maven_added_prec, plot_styles[0], label='Maven Dependencies: Added', color='#000000')
         ax.plot(maven_removed_prec, plot_styles[1], label='Maven Dependencies: Removed', color='#000000')
@@ -145,9 +145,9 @@ def plot_average_precision_data(tag = ""):
     fig, ax = plt.subplots()
 
     if graph_colors:
-        ax.plot(keywords_precision, label='Keywords Searches', color=colors[0])
-        ax.plot(maven_total_prec, label='Maven Dependencies', color=colors[1])
-        ax.plot(bu_precision, label='Static SC Analysis', color=colors[2])
+        ax.plot(keywords_precision, label='Keywords Searches', color=colors[0], linewidth=linewidth)
+        ax.plot(maven_total_prec, label='Maven Dependencies', color=colors[1], linewidth=linewidth)
+        ax.plot(bu_precision, label='Static SC Analysis', color=colors[2], linewidth=linewidth)
     else:
         ax.plot(keywords_precision, plot_styles[0], label='Keywords Searches', color='#000000')
         ax.plot(maven_total_prec, plot_styles[1], label='Maven Dependencies', color='#000000')
@@ -181,9 +181,9 @@ def plot_limited_precision_data(tag = ""):
     
     fig, ax = plt.subplots()
     if graph_colors:
-        ax.plot(maven_added_prec, label='Maven Dependencies: Added', color=colors[0])
-        ax.plot(maven_removed_prec, label='Maven Dependencies: Removed', color=colors[1])
-        ax.plot(maven_changed_prec, label='Maven Dependencies: Changed', color=colors[2])
+        ax.plot(maven_added_prec, label='Maven Dependencies: Added', color=colors[0], linewidth=linewidth)
+        ax.plot(maven_removed_prec, label='Maven Dependencies: Removed', color=colors[1], linewidth=linewidth)
+        ax.plot(maven_changed_prec, label='Maven Dependencies: Changed', color=colors[2], linewidth=linewidth)
     else:
         ax.plot(maven_added_prec, plot_styles[0], label='Maven Dependencies: Added', color='#000000')
         ax.plot(maven_removed_prec, plot_styles[1], label='Maven Dependencies: Removed', color='#000000')
@@ -213,10 +213,10 @@ def plot_query_precision_data(tag = ""):
     rs_precision = rs_precision[:max_k]
 
     if graph_colors:
-        ax.plot(cac_precision, label='Components And Connectors', color=colors[0])
-        ax.plot(df_precision, label='Descision Factors', color=colors[1])
-        ax.plot(r_precision, label='Rationale', color=colors[2])
-        ax.plot(rs_precision, label='Reusable Solutions', color=colors[3])
+        ax.plot(cac_precision, label='Components And Connectors', color=colors[0], linewidth=linewidth)
+        ax.plot(df_precision, label='Descision Factors', color=colors[1], linewidth=linewidth)
+        ax.plot(r_precision, label='Rationale', color=colors[2], linewidth=linewidth)
+        ax.plot(rs_precision, label='Reusable Solutions', color=colors[3], linewidth=linewidth)
     else:
         ax.plot(cac_precision, plot_styles[0], label='Components And Connectors', color='#000000')
         ax.plot(df_precision, plot_styles[1], label='Descision Factors', color='#000000')

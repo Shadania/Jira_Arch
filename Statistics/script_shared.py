@@ -67,6 +67,8 @@ font = {
     'size': 12
 }
 
+linewidth = 3.0
+
 # Filters a list of issues by project
 def filter_project(issues, project):
     if not project:
