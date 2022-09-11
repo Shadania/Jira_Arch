@@ -196,8 +196,8 @@ def plot_comparisons(AK):
     td, bu, mav, mav_td, mav_bu, td_bu, all, bhat = get_AK_issues_with_properties(AK)
     lists = [td, bu, mav, mav_td, mav_bu, td_bu, all, bhat]
 
-    properties_bar = ['status','resolution','is_a_subtask','issue_type','hierarchy']
-    properties_box = ['description_size','comment_count','average_comment_size','attachment_count', 'duration']
+    properties_bar = ['status','resolution','issue_type','hierarchy']
+    properties_box = ['description_size','comment_count','average_comment_size', 'duration']
     properties_box_ylabel = ["Length in Characters", "Amount of Comments", "Average Size in Characters", "Amount", "Duration in Days"]
 
     # with intersection

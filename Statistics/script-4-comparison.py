@@ -94,8 +94,8 @@ def box_plot_AK_vs_non_AK(property, ylabel):
 
 # All the AK vs non-AK issue property comparisons are called here
 def AK_vs_non_AK():
-    bar_props = ['status', 'resolution', 'is_a_subtask', 'issue_type','hierarchy']
-    box_props = ['description_size', 'comment_count', 'average_comment_size', 'attachment_count', 'duration']
+    bar_props = ['status', 'resolution', 'issue_type','hierarchy']
+    box_props = ['description_size', 'comment_count', 'average_comment_size', 'duration']
     props_box_ylabel = ["Length in Characters", "Amount of Comments", "Average Size in Characters", "Amount", "Duration in Days"]
     for prop in bar_props:
         plot_AK_vs_non_AK(prop)
