@@ -53,16 +53,27 @@ def plot_method_type_yield(issue_list, filename):
                     data[project][thisTag] = 0
                 data[project][thisTag] += 1
 
-    projects = data.keys()
+    graph_element_order = [
+        {'HADOOP': 'Hadoop'},
+        {'HDFS': 'HDFS'},
+        {'MAPREDUCE': 'Map-Reduce'},
+        {'YARN': 'Yarn'},
+        {'CASSANDRA': 'Cassandra'},
+        {'TAJO': 'Tajo'}
+    ]
 
-    x_labels = [project.title() for project in projects]
+    # projects = data.keys()
+    projects = [list(x.keys())[0] for x in graph_element_order]
+
+    # x_labels = [project.title() for project in projects]
+    x_labels = [list(x.values())[0] for x in graph_element_order]
 
     fig, ax = plt.subplots()
 
     heights = []
 
     for i in range(len(types)):
-        bottoms = [0] * len(projects)
+        bottoms = [0] * len(graph_element_order)
 
         for prev in heights:
             for j in range(len(prev)):
