@@ -1,5 +1,5 @@
 from script_shared import filter_tags, count_property, colors, hatches
-from script_shared import box_scale, box_show_outliers, graph_colors
+from script_shared import box_scale, box_show_outliers, graph_colors, font
 import json
 import matplotlib.pyplot as plt
 
@@ -102,4 +102,5 @@ def AK_vs_non_AK():
     for i in range(len(box_props)):
         box_plot_AK_vs_non_AK(box_props[i], props_box_ylabel[i])
 
+plt.rc('font', **font)
 AK_vs_non_AK()

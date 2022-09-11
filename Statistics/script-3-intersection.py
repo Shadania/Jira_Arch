@@ -1,10 +1,11 @@
 import json
+from re import M
 import matplotlib.pyplot as plt
 
 show_figures = False
 
 from script_shared import filter_tags, count_property, colors, hatches
-from script_shared import box_scale, box_show_outliers, graph_colors
+from script_shared import box_scale, box_show_outliers, graph_colors, font
 
 
 # Gets the issue sets with saved properties, depending on the argument, which can be either AK or non-AK
@@ -225,4 +226,5 @@ def plot_comparisons(AK):
 
 
 AK = True
+plt.rc('font', **font)
 plot_comparisons(AK)

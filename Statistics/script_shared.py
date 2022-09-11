@@ -61,6 +61,12 @@ box_show_outliers = True # true for show, false for do not show
 
 graph_colors = True # true for Use Colors, false for Use Hatching
 
+font = {
+    'family': 'DejaVu Sans',
+    'weight': 'normal',
+    'size': 12
+}
+
 # Filters a list of issues by project
 def filter_project(issues, project):
     if not project:

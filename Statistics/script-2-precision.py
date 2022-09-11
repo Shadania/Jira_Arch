@@ -1,8 +1,8 @@
 from matplotlib import pyplot as plt
 
 from script_shared import annotated, bottomup
-from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues, colors, plot_styles, hatches
-from script_shared import box_scale, box_show_outliers, graph_colors
+from script_shared import get_top_down_issues, get_maven_issues, get_bottom_up_issues
+from script_shared import colors, plot_styles, hatches, graph_colors, font
 
 import numpy
 
@@ -279,6 +279,8 @@ def plot_tag_data(project = None):
     else:
         plt.close()
 
+
+plt.rc('font', **font)
 
 plot_precision_data()
 plot_precision_data("Existence")
