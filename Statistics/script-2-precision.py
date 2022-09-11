@@ -230,7 +230,7 @@ def plot_query_precision_data(tag = ""):
     ax.set_title(tag)
     ax.legend()
     fig.set_size_inches(8,4.5)
-    plt.savefig(f'figures/precision/queries_precision.png')
+    plt.savefig(f'figures/precision/queries_precision_{tag}.png')
     if show_figures:
         plt.show()
     else:
@@ -297,8 +297,9 @@ plot_tag_data('TAJO')
 
 
 plot_average_precision_data()
+plot_query_precision_data()
 for dec_type in ["Existence", "Executive", "Property"]:
     plot_average_precision_data(dec_type)
+    plot_query_precision_data(dec_type)
 
 plot_limited_precision_data()
-plot_query_precision_data()
