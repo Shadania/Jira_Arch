@@ -97,7 +97,7 @@ def box_plot_AK_vs_non_AK(property, ylabel):
 def AK_vs_non_AK():
     bar_props = ['status', 'resolution', 'issue_type','hierarchy']
     box_props = ['description_size', 'comment_count', 'average_comment_size', 'duration']
-    props_box_ylabel = ["Length in Words", "Amount of Comments", "Average Size in Words", "Amount", "Duration in Days"]
+    props_box_ylabel = ["Length in Words", "Amount of Comments", "Average Size in Words", "Duration in Days"]
     for prop in bar_props:
         plot_AK_vs_non_AK(prop)
     for i in range(len(box_props)):
